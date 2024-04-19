@@ -17,6 +17,7 @@
     font-weight: 600;
     font-size: 30px;
     border-bottom: solid 2px yellow;
+    animation: cd-bounce;
 }
 .conts_name,.conts_contact,.conts_query{
     display: flex;

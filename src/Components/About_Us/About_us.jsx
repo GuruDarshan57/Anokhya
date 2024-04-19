@@ -84,14 +84,16 @@ const About_us = () => {
                                     <span className='abs_d'>11</span><span className='abs_dt'>EVENTS</span>
                                 </div>
                             </div>
-                            <div className="abs_img">
-                                <img src={bimg} alt="" />
-                            </div>
+
                         </div>
 
                     </div>
 
                 </div>
+                <div className="abs_img">
+                    <img src={bimg} alt="" />
+                </div>
+
             </div>
         </div>
     )
