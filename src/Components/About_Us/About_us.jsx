@@ -53,7 +53,7 @@ const About_us = () => {
     };
 
     const getDeadTime = () => {
-        let deadline = new Date("2024-05-15T18:47:00");
+        let deadline = new Date("2024-05-16T18:47:00");
         return deadline;
     };
     useEffect(() => {
@@ -68,9 +68,16 @@ const About_us = () => {
                 <div className="abs_body">
                     <div className="abs_timer">
                         <h2 className='time_text'>TECH</h2>
-                        <h2 className="time_text"><span>AWESOMENESS</span> IN</h2>
+                        <h2 className="time_text">
+                            <div className="container">
+                                <div class="stack" style={{ "--stacks": "3" }}>
+                                    <span style={{ "--index": "0" }}>AWESOMENESS</span>
+                                    <span style={{ "--index": " 1" }}>AWESOMENESS</span>
+                                    <span style={{ "--index": "2" }}>AWESOMENESS</span>
+                                </div>
+                            </div> IN</h2>
                         <h2 id="time">{timer}</h2>
-                        <div><p>DAYS</p> <p>HOURS</p>   <p>MINUTES</p><p>SECONDS</p></div>
+                        <div id="label"><p>DAYS</p> <p>HOURS</p>   <p>MINUTES</p><p>SECONDS</p></div>
                     </div>
                     <div className="abs_txt">
                         <div className="abs_txt_con">
@@ -94,8 +101,8 @@ const About_us = () => {
                     <img src={bimg} alt="" />
                 </div>
 
-            </div>
-        </div>
+            </div >
+        </div >
     )
 }
 
