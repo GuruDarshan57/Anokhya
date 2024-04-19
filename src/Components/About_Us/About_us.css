@@ -1,0 +1,210 @@
+.about_us{
+    min-height: 111vh;
+    background-color: black;
+    background-image: url(../../Assets/Abs_bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 15px;
+}
+.abs_con{
+    display:flex;
+    flex-direction: column;
+}
+.abs_head{
+    color: rgba(255, 255, 255, 0.896);
+    font-size: 30px;
+    font-weight: 600;
+    padding-left: 50px;
+}
+.abs_body{
+    display: flex;
+    align-items: center;
+}
+.abs_timer{
+    flex: 0.75;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    height: 300px;
+    color:white;
+    font-size: 50px;
+}
+.abs_timer h2 span{
+    font-weight: 500;
+    font-family: "Barlow Condensed", sans-serif;
+    font-style: italic;
+    color: yellow;
+}
+.time_text,#time{
+    font-weight: 100;
+    font-family: "Barlow Condensed", sans-serif;
+    font-style: italic;
+}
+.time_text{
+    font-size: 38px;
+    margin-left: 105px;
+    letter-spacing: 1px;
+}
+#time{
+    color:white;
+    margin-left: 100px;
+    letter-spacing: 3px;
+}
+.abs_timer div{
+    display: flex;
+    gap:48px;
+    margin-left: 100px;
+    font-size: 17px;
+    font-style: italic;
+}
+.abs_timer div p{
+    font-family: "Barlow Condensed", sans-serif;
+    color:yellow
+}
+.abs_txt{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+.abs_txt_con{
+    width: 90%;
+    padding:20px;
+    margin-top: 40px;
+}
+.abs_txt_con h1{
+    font-size: 60px;
+    letter-spacing: 4px;
+    font-weight: 600;
+    font-family: "Barlow Condensed", sans-serif;
+}
+.abs_txt_con p{
+    margin-top: 10px;
+    font-size: 20px;
+    letter-spacing: 1px;
+    line-height: 35px;
+    color: white;
+    text-align: justify;
+}
+.abs_tinfo{
+    display: flex;
+    gap: 40px;
+}
+.abs_d{
+    color: yellow;
+    font-size: 80px;
+    font-family: "Barlow Condensed", sans-serif;
+    font-style: italic;
+    margin-right: 20px;
+    letter-spacing: 8px;
+}
+.abs_dt{
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    font-family: "Barlow Condensed", sans-serif;
+    font-style: italic;
+    letter-spacing:5px;
+}
+.abs_img{
+    display: flex;
+    justify-content: end;
+}
+.abs_img img{
+    height: 33px;
+    margin-top: 30px;
+}
+
+@media (max-width:1300px){
+    .about_us{
+        background-image: none;
+    }
+    .abs_head{
+        padding-left: 0;
+        color: white;
+        align-self: center;
+    }
+    .abs_txt_con h1{
+        color: yellow;
+    }
+    .abs_txt_con{
+        margin-top: 20px;
+        align-items: center;
+    }
+    .abs_fs_logo{
+        display:none;
+    }
+}
+@media(max-width:1200px){
+    .abs_timer{
+        display: none;
+    }
+}
+@media(max-width:660px){
+    .abs_txt_con h1{
+        font-size: 50px;
+    }
+    .abs_txt_con p{
+        font-size: 18px;
+    }
+}
+
+@media(max-width:510px){
+    .abs_body{
+        flex-direction: column-re;
+    }
+    .abs_head{
+        align-self: start;
+        margin-left: 20px;
+        border-bottom: solid 2px yellow;
+    }
+    .abs_txt_con{
+        width:100%
+    }
+    .abs_txt_con h1{
+        font-size: 40px;
+    }
+    .abs_txt_con{
+        margin-top: 10px;
+    }
+    .abs_txt_con p{
+        font-size: 15px;
+    }
+    .abs_d{
+        font-size: 60px;
+
+    }
+    .abs_dt{
+        font-size: 30px;
+    }
+}
+@media(max-width:430px){
+    .abs_head{
+        font-size:28px;
+    }
+    .abs_txt_con h1{
+        font-size: 25px;
+    }
+    .abs_txt_con p{
+        font-size: 14px;
+    }
+    .abs_tinfo{
+        gap: 20px;
+    }
+    .abs_d{
+        margin-right: 8px;
+        font-size: 50px;
+    }
+    .abs_dt{
+        font-size:25px ;
+    }
+    .abs_img img{
+        height: 28px;
+    }
+    .about_us{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height:100vh;
+    }
+}
