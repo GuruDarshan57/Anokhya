@@ -17,9 +17,10 @@
        padding: 20px 15px;
        display: flex;
        flex-direction: column;
-       box-shadow: 0 5px 20px rgba(0,0,0,0.5);
+       box-shadow: 0 5px 20px aqua;
        transition: 0.3s ease-in-out;
        align-items: center;
+       margin-bottom: 86px;
    }
    .eventcontainer .eventcard:hover{
       height: 420px;
@@ -69,7 +70,7 @@
        display: flex;
        justify-content: center;
        text-align: center;
-        background-color:rgba(0, 0, 0, 0.689);
+        background-color:rgb(0, 0, 0);
    }
 
    .eventimgbx img{
