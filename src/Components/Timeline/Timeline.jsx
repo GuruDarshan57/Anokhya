@@ -121,7 +121,7 @@ function Timeline() {
                     <div data-aos="fade-left" className="text-box rt">
                         <h2><b>Picture Probe</b></h2>
                         <small>17th May 11:00 to 13:00</small>
-                        <p>Explore imagery at Picture Probe! Embark on a visual journey and delve into the world of photography.</p>
+                        <p>Explore imagery at Picture Probe! Embark on a visual journey and delve into the world of photography</p>
                         <span className='right-container-arrow'></span>
                     </div>
                 </div>
