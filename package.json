@@ -13,11 +13,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-<<<<<<< HEAD
- 
-=======
     "gh-pages": "^6.1.1",
->>>>>>> 8a72653514d5b6fbc7128e0b9f8e932c4e3d35f2
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.22.3"
