@@ -105,6 +105,11 @@
     animation-delay: 11s;
 }
 
+.maincontainer:nth-child(13)
+{
+    animation-delay: 12s;
+}
+
 .text-box{
     display: flex;
     flex-direction: column;
@@ -167,7 +172,7 @@ left: -23px;
     left:50%;
     margin-left: -3px;
     z-index:1;
-    animation: moveline 12s linear forwards;
+    animation: moveline 13s linear forwards;
 }
 
 @keyframes moveline {
