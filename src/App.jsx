@@ -20,10 +20,11 @@ function App() {
     <>
       <Home />
       <About_us />
+      <Events_card />
       <Timeline />
       <Contact_Us />
       <Footer />
-      <Events_card />
+
     </>
   )
 }
