@@ -2,6 +2,8 @@ import './About_us.css'
 import bimg from '../../Assets/bottom.png'
 import React, { useEffect, useRef, useState } from 'react'
 
+
+
 const About_us = () => {
     const Ref = useRef(null);
 

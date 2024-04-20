@@ -29,7 +29,7 @@ const Contact_Us = () => {
                         <input type="submit" value="SUBMIT" />
                     </div>
                 </form>
-                <div className="conts_links">
+                <div data-aos="zoom-in" className="conts_links">
                     <ul>
                         <li>
                             <a href="https://www.instagram.com" target='_blank'>

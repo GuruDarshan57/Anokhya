@@ -33,81 +33,6 @@
     position: relative;
     width: 50%;
     box-sizing: border-box;
-    /* background: rgba(0,0,0,0.3); */
-    animation: movedown 1s linear forwards;
-    opacity: 0;
-}
-
-@keyframes movedown {
-    0%{
-        opacity: 1;
-        transform: translateY(-30px);
-    }
-
-    100%{
-        opacity: 1;
-        transform: translateY(0px);
-    }
-}
-
-.maincontainer:nth-child(2)
-{
-    animation-delay: 1s;
-}
-
-.maincontainer:nth-child(3)
-{
-    animation-delay: 2s;
-}
-
-.maincontainer:nth-child(4)
-{
-    animation-delay: 3s;
-}
-
-.maincontainer:nth-child(5)
-{
-    animation-delay: 4s;
-}
-
-.maincontainer:nth-child(6)
-{
-    animation-delay: 5s;
-}
-
-.maincontainer:nth-child(7)
-{
-    animation-delay: 6s;
-}
-
-.maincontainer:nth-child(8)
-{
-    animation-delay: 7s;
-}
-
-.maincontainer:nth-child(9)
-{
-    animation-delay: 8s;
-}
-
-.maincontainer:nth-child(10)
-{
-    animation-delay: 9s;
-}
-
-.maincontainer:nth-child(11)
-{
-    animation-delay: 10s;
-}
-
-.maincontainer:nth-child(12)
-{
-    animation-delay: 11s;
-}
-
-.maincontainer:nth-child(13)
-{
-    animation-delay: 12s;
 }
 
 .text-box{
@@ -153,18 +78,22 @@
     right: -23px;
     top: 32px;
     z-index: 2;
-    background-color:yellow;
-    border: solid 5px white;
-  
+    background-color:rgb(255, 255, 255);
+    border: solid 5px yellow;
+}
+.left-container .timelineimgdiv{
+    box-shadow: 0 0 0 3px yellow,inset 0 2px 0 rgba(0,0,0,.08),0 3px 0 4px rgba(0,0,0,.05);
 }
 .right-container .timelineimgdiv{
 left: -23px;
+background-color:yellow;
+border: solid 5px white;
+box-shadow: 0 0 0 3px white,inset 0 2px 0 rgba(0,0,0,.08),0 3px 0 4px rgba(0,0,0,.05);
 }
 
 .maintimeline::after{
     content: '';
     position: absolute;
-    /* border: 2px solid red; */
     width: 5px;
     height: 100%;
     background-color: yellow;
@@ -172,18 +101,6 @@ left: -23px;
     left:50%;
     margin-left: -3px;
     z-index:1;
-    animation: moveline 13s linear forwards;
-}
-
-@keyframes moveline {
-    0%{
-        height: 0;
-    }
-
-    100%{
-        height: 100%;
-    }
-    
 }
 
 .text-box h2{

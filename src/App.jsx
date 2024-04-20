@@ -5,8 +5,18 @@ import About_us from './Components/About_Us/About_us'
 import Footer from './Components/Footer/Footer'
 import Timeline from './Components/Timeline/Timeline'
 import Home from './Components/Home/Home'
+import Aos from 'aos'
+import 'aos/dist/aos.css'
+import { useEffect } from 'react'
+
+
+
 
 function App() {
+  useEffect(() => {
+    Aos.init();
+  })
+
 
   return (
     <>

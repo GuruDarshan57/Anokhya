@@ -1,5 +1,7 @@
 import './Timeline.css'
 import bimg from '../../Assets/bottom.png'
+
+
 function Timeline() {
 
 
@@ -9,33 +11,33 @@ function Timeline() {
             <div className="maintimeline">
 
                 <div className="maincontainer left-container">
-                    <div className='timelineimgdiv'>
+                    <div data-aos="zoom-in" className='timelineimgdiv'>
                     </div>
-                    <div className="text-box lt">
+                    <div data-aos="fade-right" className="text-box lt" >
                         <h2><b>Inaugration</b></h2>
-                        <small>16th may 9:00 to 11:30</small>
+                        <small>16th May 9:00 to 11:30</small>
                         <p>Welcome to the dawn of innovation! Let the tech fest begin its electrifying journey.</p>
                         <span className='left-container-arrow'></span>
                     </div>
                 </div>
 
                 <div className="maincontainer right-container">
-                    <div className='timelineimgdiv'>
+                    <div data-aos="zoom-in" className='timelineimgdiv'>
                     </div>
-                    <div className="text-box rt">
+                    <div data-aos="fade-left" className="text-box rt">
                         <h2><b>Workshop</b></h2>
-                        <small>16th may 11:30 to 13:30</small>
+                        <small>16th May 11:30 to 13:30</small>
                         <p>At Anokhya, dive into creativity at our workshop. Learn, innovate, and be inspired by cutting-edge tech.</p>
                         <span className='right-container-arrow'></span>
                     </div>
                 </div>
 
                 <div className="maincontainer left-container">
-                    <div className='timelineimgdiv'>
+                    <div data-aos="zoom-in" className='timelineimgdiv'>
                     </div>
-                    <div className="text-box lt">
+                    <div data-aos="fade-right" className="text-box lt">
                         <h2><b>Meme Splash</b></h2>
-                        <small>16th may 11:30 to 13:30</small>
+                        <small>16th May 11:30 to 13:30</small>
                         <p>Dive into the laughter at Meme Splash! Join the fun-filled event and let the memes roll!</p>
                         <span className='left-container-arrow'></span>
                     </div>
@@ -43,11 +45,11 @@ function Timeline() {
 
 
                 <div className="maincontainer right-container">
-                    <div className='timelineimgdiv'>
+                    <div data-aos="zoom-in" className='timelineimgdiv'>
                     </div>
-                    <div className="text-box rt">
+                    <div data-aos="fade-left" className="text-box rt">
                         <h2><b>Code-Relay</b></h2>
-                        <small>16th may 14:30 to 16:30</small>
+                        <small>16th May 14:30 to 16:30</small>
                         <p>Race to the code at CodeRelay! Join the fast-paced event and conquer programming challenges together!</p>
                         <span className='right-container-arrow'></span>
                     </div>
@@ -55,23 +57,23 @@ function Timeline() {
 
 
                 <div className="maincontainer left-container">
-                    <div className='timelineimgdiv'>
+                    <div data-aos="zoom-in" className='timelineimgdiv'>
                     </div>
-                    <div className="text-box lt">
+                    <div data-aos="fade-right" className="text-box lt">
                         <h2><b>Hack-MY-PC</b></h2>
-                        <small>16th may 14:30 to 16:30</small>
+                        <small>16th May 14:30 to 16:30</small>
                         <p>Unlock innovation at Hack My PC! Join the immersive event and delve into the world of hacking.</p>
                         <span className='left-container-arrow'></span>
                     </div>
                 </div>
 
 
-                <div className="maincontainer right-container">
+                <div data-aos="zoom-in" className="maincontainer right-container">
                     <div className='timelineimgdiv'>
                     </div>
-                    <div className="text-box rt">
+                    <div data-aos="fade-left" className="text-box rt">
                         <h2><b>Deploy It</b></h2>
-                        <small>16th may 16:30 to 18:00</small>
+                        <small>16th May 16:30 to 18:00</small>
                         <p>Dive into deployment at Deploy It! Join the event and explore the world of coding implementation and execution.</p>
                         <span className='right-container-arrow'></span>
                     </div>
@@ -79,22 +81,22 @@ function Timeline() {
 
 
                 <div className="maincontainer left-container">
-                    <div className='timelineimgdiv'>
+                    <div data-aos="zoom-in" className='timelineimgdiv'>
                     </div>
-                    <div className="text-box lt">
+                    <div data-aos="fade-right" className="text-box lt">
                         <h2><b>PC Building</b></h2>
-                        <small>16th may 16:30 to 18:00</small>
+                        <small>16th May 16:30 to 18:00</small>
                         <p>Participate in the excitement at PC Building! Dive into the event and craft your perfect machine from scratch.</p>
                         <span className='left-container-arrow'></span>
                     </div>
                 </div>
 
                 <div className="maincontainer right-container">
-                    <div className='timelineimgdiv'>
+                    <div data-aos="zoom-in" className='timelineimgdiv'>
                     </div>
-                    <div className="text-box rt">
+                    <div data-aos="fade-left" className="text-box rt">
                         <h2><b>Tech Talk</b></h2>
-                        <small>17th may 9:00 to 10:00</small>
+                        <small>17th May 9:00 to 10:00</small>
                         <p>Engage with knowledge at Tech Talk! Immerse yourself in enlightening discussions and cutting-edge insights.</p>
                         <span className='right-container-arrow'></span>
                     </div>
@@ -102,11 +104,11 @@ function Timeline() {
 
 
                 <div className="maincontainer left-container">
-                    <div className='timelineimgdiv'>
+                    <div data-aos="zoom-in" className='timelineimgdiv'>
                     </div>
-                    <div className="text-box lt">
+                    <div data-aos="fade-right" className="text-box lt">
                         <h2><b>UI/UX</b></h2>
-                        <small>17th may 11:00 to 13:00</small>
+                        <small>17th May 11:00 to 13:00</small>
                         <p>Dive into design at UI/UX! Explore the art of user interface and user experience creation.</p>
                         <span className='left-container-arrow'></span>
                     </div>
@@ -114,33 +116,33 @@ function Timeline() {
 
 
                 <div className="maincontainer right-container">
-                    <div className='timelineimgdiv'>
+                    <div data-aos="zoom-in" className='timelineimgdiv'>
                     </div>
-                    <div className="text-box rt">
+                    <div data-aos="fade-left" className="text-box rt">
                         <h2><b>Picture Probe</b></h2>
-                        <small>17th may 11:00 to 13:00</small>
+                        <small>17th May 11:00 to 13:00</small>
                         <p>Explore imagery at Picture Probe! Embark on a visual journey and delve into the world of photography.</p>
                         <span className='right-container-arrow'></span>
                     </div>
                 </div>
 
                 <div className="maincontainer left-container">
-                    <div className='timelineimgdiv'>
+                    <div data-aos="zoom-in" className='timelineimgdiv'>
                     </div>
-                    <div className="text-box lt">
+                    <div data-aos="fade-right" className="text-box lt">
                         <h2><b>Tech Tinder</b></h2>
-                        <small>17th may 14:00 to 16:00</small>
+                        <small>17th May 14:00 to 16:00</small>
                         <p>Discover connections at Tech Tinder! Engage in tech conversations and spark innovative collaborations.</p>
                         <span className='left-container-arrow'></span>
                     </div>
                 </div>
 
                 <div className="maincontainer right-container">
-                    <div className='timelineimgdiv'>
+                    <div data-aos="zoom-in" className='timelineimgdiv'>
                     </div>
-                    <div className="text-box rt">
+                    <div data-aos="fade-left" className="text-box rt">
                         <h2><b>Workshop</b></h2>
-                        <small>17th may 14:00 to 16:00</small>
+                        <small>17th May 14:00 to 16:00</small>
                         <p>Step into the world of innovation! Welcome to the workshop where learning meets creativity and discovery.</p>
                         <span className='right-container-arrow'></span>
                     </div>
@@ -148,11 +150,11 @@ function Timeline() {
                 </div>
 
                 <div className="maincontainer left-container">
-                    <div className='timelineimgdiv'>
+                    <div data-aos="zoom-in" className='timelineimgdiv'>
                     </div>
-                    <div className="text-box lt">
+                    <div data-aos="fade-right" className="text-box lt">
                         <h2><b>Tech Tinder</b></h2>
-                        <small>17th may 14:00 to 16:00</small>
+                        <small>17th May 14:00 to 16:00</small>
                         <p>Discover connections at Tech Tinder! Engage in tech conversations and spark innovative collaborations.</p>
                         <span className='left-container-arrow'></span>
                     </div>
