@@ -1,0 +1,58 @@
+.pgl{
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    place-items: center;
+    background-color:rgba(255, 255, 255, 0.116);
+    background-image: url(../../Assets/PGL.png);
+    background-position:center;
+    background-size: cover;
+    position: relative;
+}
+.pgl_con{
+    height: 50%;
+    
+    color: yellow;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.pgl_con h3{
+    letter-spacing: 8px;
+    font-family: "Barlow Condensed", sans-serif;
+
+}
+.pgl_con h2{
+    font-size: 80px;
+    letter-spacing: 10px;
+}
+.pgl_con p{
+    font-family: "Barlow Condensed", sans-serif;
+    text-align:right;
+    font-size: 12px;
+    letter-spacing: 5px
+
+}
+.pgl_ld{
+    position: absolute;
+    font-size: 60px;
+    font-weight: 600;
+    bottom: 10px;
+    right: 20px;
+    color: yellow;
+}
+
+@media(max-width:534px){
+    .pgl_con h3{
+        font-size: 15px;
+    
+    }
+    .pgl_con h2{
+        font-size: 50px;
+    }
+    .pgl_con p{
+        font-size: 10px;
+    
+    }
+
+}
