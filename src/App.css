@@ -48,3 +48,7 @@
     animation: fadeup 1.4s;
     
   }
+
+  body{
+    background-color: black;
+  }
