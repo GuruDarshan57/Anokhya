@@ -9,3 +9,36 @@
     display: none;
   }
   
+
+  @keyframes fadedown{
+    0%{
+      opacity: 0;
+      transform: translateY(30px) scale(0.9);
+    }
+
+    100%{
+      opacity: 1;
+      transform: translateY(0px) scale(1);
+    }
+  }
+
+  @keyframes fadeup{
+    0%{
+      opacity:0;
+      transform: translateY(-30px) scale(0.9);
+    }
+    100%{
+      opacity: 1;
+      transform: translateY(0px) scale(1);
+    }
+  }
+
+  .homeanim{
+    
+    animation: fadeup 1.4s;
+    
+  }
+
+  body{
+    background-color: black;
+  }
