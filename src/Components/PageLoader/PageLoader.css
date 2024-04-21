@@ -43,6 +43,8 @@
 }
 
 @media(max-width:534px){
+    .pgl{
+    }
     .pgl_con h3{
         font-size: 15px;
     
@@ -55,7 +57,7 @@
     
     }
     .pgl_ld{
-        bottom: 25px;
+        bottom: 50px;
         font-size:50px;
 
     }
