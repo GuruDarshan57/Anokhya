@@ -5,17 +5,7 @@
 }
 
 
-/* custom scroll bar */
-
 ::-webkit-scrollbar {
-    width: 6px;
-    height: 6px;
-  }
-::-webkit-scrollbar-track {
-    background-color: rgba(0, 0, 0, 0.848);
-  }
-  ::-webkit-scrollbar-thumb {
-    background: yellow;
-    border-radius: 6px;
+    display: none;
   }
   

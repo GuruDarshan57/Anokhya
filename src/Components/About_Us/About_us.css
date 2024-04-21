@@ -190,10 +190,11 @@
     color:white;
     margin-left: 0;
     letter-spacing: 3px;
+    font-size: 68px;
 }
 #label{
     display: flex;
-    gap:48px;
+    gap:40px;
     margin-left: 0;
     font-size: 17px;
     font-style: italic;
