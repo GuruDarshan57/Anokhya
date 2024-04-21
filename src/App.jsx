@@ -54,7 +54,7 @@ const PageLoad = ({ setHideLoader }) => {
       </p>
       <div style={{ display: "flex", justifyContent: "space-between", width: "40%" }}>
         <span style={{ opacity: 0.3 }}>Loading...</span>
-        <span style={{ fontSize: "7rem", fontWeight: "bold" }}>
+        <span style={{ fontSize: "7vw", fontWeight: "bold" }}>
           {counter}%
         </span>
       </div>
