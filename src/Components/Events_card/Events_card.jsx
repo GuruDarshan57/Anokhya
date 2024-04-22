@@ -1,8 +1,10 @@
 import React from 'react';
 import './Events_card.css';
 import e1 from '../../Assets/techtalkimg.jpg'
-import e2 from "../../Assets/Work_Shop.png"
-import bimg from "../../Assets/bottom.png"
+import e2 from '../../Assets/eventsimg.png'
+import e3 from '../../Assets/workshopcard.png'
+
+import bimg from '../../Assets/bottom.json'
 
 const YourComponent = () => {
   return (
@@ -11,7 +13,7 @@ const YourComponent = () => {
         <div className="eventcontainer">
           <div className="eventcard">
             <div className="eventimgbx">
-              <img src={e1} alt="Card 1" className='cardimg' />
+              <img src={bimg} alt="Card 1" className='cardimg' />
             </div>
             <div className="eventcontent">
               <h2>Events</h2>
@@ -23,7 +25,7 @@ const YourComponent = () => {
 
           <div className="eventcard">
             <div className="eventimgbx">
-              <img src={e2} alt="Card 2" className="cardimg" />
+              <img src={bimg} alt="Card 2" className="cardimg" />
             </div>
             <div className="eventcontent">
               <h2>Workshop</h2>
@@ -35,7 +37,7 @@ const YourComponent = () => {
 
           <div className="eventcard">
             <div className="eventimgbx">
-              <img src={e2} alt="Card 3" className="cardimg" />
+              <img src={bimg} alt="Card 3" className="cardimg" />
             </div>
             <div className="eventcontent">
               <h2>Tech Talk</h2>
@@ -45,9 +47,6 @@ const YourComponent = () => {
             </div>
           </div>
         </div>
-      </div>
-      <div className="ec_img">
-        <img src={bimg} alt="" />
       </div>
     </div>
   );
