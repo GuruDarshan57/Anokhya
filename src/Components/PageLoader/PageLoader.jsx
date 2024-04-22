@@ -10,7 +10,7 @@ const PageLoader = ({ setHideLoader }) => {
                 setCounter(counter + 2);
             } else {
                 clearInterval(count);
-                setHideLoader(true);
+                setHideLoader(false);
             }
         }, 25);
 
