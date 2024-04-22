@@ -75,4 +75,13 @@
 
    .eventimgbx img{
     height: 200px;
+    
+   }
+   .ec_img{
+    position: absolute;
+    right: 10px;
+
+   }
+   .ec_img img{
+    height: 33px;
    }

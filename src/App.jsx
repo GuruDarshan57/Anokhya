@@ -10,7 +10,7 @@ import Timeline from './Components/Timeline/Timeline'
 import Home from './Components/Home/Home'
 import Events_card from './Components/Events_card/Events_card'
 import PageLoader from './Components/PageLoader/PageLoader'
-
+import Events from './Components/Events/Events'
 
 
 import Aos from 'aos'
@@ -35,6 +35,7 @@ function App() {
           </div>
           <About_us />
           <Events_card />
+          <Events />
           <Timeline />
           <Contact_Us />
           <Footer />
