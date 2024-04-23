@@ -1,0 +1,39 @@
+.events{
+    box-sizing: border-box;
+    height: 500px;
+    width: 100vw;
+    padding: 90px 40px;
+    color: yellow;
+    position: relative;
+}
+.events_con{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.events_head{
+    font-weight:600;
+    width: 190px;
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    letter-spacing: 5px;
+    display: inline;
+    border-bottom: solid 2px yellow;
+}
+.events_container{
+    height: 75%;
+    display: flex;
+    border: solid 2px white;
+}
+
+
+.events_img{
+    position: absolute;
+    right: 10px;
+    bottom: -20px;
+}
+.events_img img{
+    height: 33px;
+}
