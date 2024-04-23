@@ -1,29 +1,73 @@
-import React, { useState } from 'react'
+import React, { useState, useRef } from 'react'
 import './Contact_Us.css'
 import bimg from '../../Assets/bottom.png'
+import emailjs from "@emailjs/browser"
+import { Bounce, ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const Contact_Us = () => {
     const [fname, Setfname] = useState("");
     const [lname, Setlname] = useState("");
     const [email, Setemail] = useState("");
     const [query, Setquery] = useState("");
+
+    const form = useRef();
+
+    const sendEmail = (e) => {
+        e.preventDefault();
+
+        emailjs
+            .sendForm(
+                "service_5dzkzqw",
+                "template_fvjbvhq",
+                form.current,
+                "DR2ZtgA5eJIBUPWmm"
+            )
+            .then(
+                (result) => {
+                    toast.success("Message Sent Successfully !")
+                    console.log("message sent");
+                }
+                ,
+                (error) => {
+                    toast.error("Error Sending The Message")
+                    console.log("error sending the message")
+                })
+
+    }
+
+
+
+
+
     return (
         <div className="conts">
+            <ToastContainer position="top-right"
+                autoClose={4000}
+                hideProgressBar={false}
+                newestOnTop={false}
+                closeOnClick
+                rtl={false}
+                pauseOnFocusLoss
+                draggable
+                pauseOnHover
+                theme="dark"
+                bodyClassNameclassName="toastBody" />
             <div className="conts_con">
                 <div className="conts_head">
                     CONTACT US
                 </div>
-                <form>
+                <form ref={form} onSubmit={sendEmail}>
                     <div className="conts_name">
-                        <input type="text" name="fname" id="fname" placeholder='First Name' />
-                        <input type="text" name="lname" id="lname" placeholder='Last Name' />
+                        <input type="text" name="anok_fname" id="fname" placeholder='First Name' required />
+                        <input type="text" name="anok_lname" id="lname" placeholder='Last Name' required />
                     </div>
                     <div className="conts_contact">
-                        <input type="email" name="email" id="email" placeholder='Email Address' />
-                        <input type="text" name="ph_num" id="ph_num" placeholder='Phone Number' />
+                        <input type="email" name="anok_email" id="email" placeholder='Email Address' required />
+                        <input type="text" name="anok_ph_num" id="ph_num" placeholder='Phone Number' required />
                     </div>
                     <div className="conts_query">
-                        <textarea name="query" id="query" cols="300" placeholder='Enter Your Query Here ...'></textarea>
+                        <textarea name="anok_query" id="query" cols="300" placeholder='Enter Your Query Here ...' required></textarea>
                     </div>
                     <div className="conts_submit">
                         <input type="submit" value="SUBMIT" />
