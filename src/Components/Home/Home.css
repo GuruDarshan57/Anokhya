@@ -101,7 +101,7 @@ a:hover{
 }
 
 .dropdown_menu.open{
-    height: 300px;
+    height: 350px;
 }
 
 .dropdown_menu li{
@@ -109,6 +109,7 @@ a:hover{
     display: flex;
     align-items: center;
     justify-content: center;
+    font-family: 'Titillium Web';
 }
 
 .dropdown_menu .action_btn{
@@ -146,8 +147,12 @@ a:hover{
 {
     .dropdown_menu{
         left: 2rem;
-        width:unset ;
+        width: 80vw;
+        font-size: 1.2rem;
     }
+
+    
+    
 }
 
 .logo{
@@ -396,9 +401,10 @@ a:hover{
 {
    
 
-    .dbroubutton{
+    #btnwin{
         display: none;
     }
+
 
     /* .navbar{
       display: flex;
