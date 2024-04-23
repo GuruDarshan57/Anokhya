@@ -76,7 +76,7 @@
     width: 38px;
     height: 38px;
     border-radius: 50%;
-    right: -23px;
+    right: -20px;
     top: 32px;
     z-index: 2;
     background-color:rgb(255, 255, 255);
@@ -86,7 +86,7 @@
     box-shadow: 0 0 0 3px yellow,inset 0 2px 0 rgba(0,0,0,.08),0 3px 0 4px rgba(0,0,0,.05);
 }
 .right-container .timelineimgdiv{
-left: -23px;
+left: -20px;
 background-color:yellow;
 border: solid 5px white;
 box-shadow: 0 0 0 3px white,inset 0 2px 0 rgba(0,0,0,.08),0 3px 0 4px rgba(0,0,0,.05);
@@ -165,7 +165,7 @@ box-shadow: 0 0 0 3px white,inset 0 2px 0 rgba(0,0,0,.08),0 3px 0 4px rgba(0,0,0
     }
 
     .left-container .timelineimgdiv,.right-container .timelineimgdiv{
-        left: 11px;
+        left: 15px;
         height: 30px;
         width: 30px;
     }

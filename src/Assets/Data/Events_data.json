@@ -11,7 +11,8 @@
         },
         "team_size":"Individual",
         "event_coordinator":"Zeta",
-        "coordinator_mobile": "9876543210"
+        "coordinator_mobile": "9876543210",
+        "colour_code":"#FF50B4"
     },
 
     {
@@ -25,7 +26,8 @@
         },
         "team_size":"3",
         "event_coordinator": "Zeta",
-        "coordinator_mobile": "9876543210"
+        "coordinator_mobile": "9876543210",
+        "colour_code":"#5CE1E6"
 
     },
 
@@ -41,7 +43,8 @@
         },
         "team_size":"5",
         "event_coordinator":"Zeta",
-        "coordinator_mobile":"9876543210"
+        "coordinator_mobile":"9876543210",
+        "colour_code":"#FF3131"
     },
 
     {
@@ -56,7 +59,8 @@
         },
         "team_size":"3",
         "event_coordinator":"Zeta",
-        "coordinator_mobile":"9876543210"
+        "coordinator_mobile":"9876543210",
+        "colour_code":"#FFFFFF"
     },
 
     {
@@ -70,7 +74,8 @@
         },
         "team_size":"2",
         "event_coordinator":"Zeta",
-        "coordinator_mobile":"9876543210"
+        "coordinator_mobile":"9876543210",
+        "colour_code":"#ffde59"
     },
 
     {
@@ -84,7 +89,8 @@
         },
         "team_size":"3",
         "event_coordinator":"Zeta",
-        "coordinator_mobile":"9876543210"
+        "coordinator_mobile":"9876543210",
+        "colour_code":"#c1ff72"
     },
 
     {
@@ -98,7 +104,8 @@
         },
         "team_size":"3",
         "event_coordinator":"Zeta",
-        "coordinator_mobile":"9876543210"
+        "coordinator_mobile":"9876543210",
+        "colour_code":"#ebe8d7"
     },
 
     {
@@ -112,7 +119,8 @@
         },
         "team_size":"Individual",
         "event_coordinator":"Zeta",
-        "coordinator_mobile":"9876543210"
+        "coordinator_mobile":"9876543210",
+        "colour_code":"#23ff9c"
     },
 
     {
@@ -126,6 +134,7 @@
         },
         "team_size":"Individual",
         "event_coordinator":"Zeta",
-        "coordinator_mobile":"9876543210"
+        "coordinator_mobile":"9876543210",
+        "colour_code":"#ff914d"
     }
 ]
