@@ -13,7 +13,7 @@ const Events = () => {
                 </div>
                 <div className="event_con">
                     {event_data.map((ele) => {
-                        return <div data-aos="zoom-out" class="event_card">
+                        return <div class="event_card">
                             <div class="event-card-inner">
                                 <div class={`event-card-front event${ele.event_id}`}>
                                 </div>
