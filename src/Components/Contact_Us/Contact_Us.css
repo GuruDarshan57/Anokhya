@@ -150,6 +150,7 @@
     .conts_head{
         width: 180px;
         font-size: 27px;
+        margin-left: 15px;
     }
     .conts_name,.conts_contact,.conts_query{
         flex-direction: column;
@@ -169,7 +170,7 @@
         font-size: 15px;
     }
     .conts_submit{
-        margin-left: 0px;
+        margin-left:16px;
     }
     .conts_submit input{
         width: 120px;
