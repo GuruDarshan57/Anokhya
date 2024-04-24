@@ -34,7 +34,7 @@ function App() {
             <Home />
           </div>
           <About_us />
-          <Events_card />
+          {/* <Events_card /> */}
           <Events />
           <Timeline />
           <Contact_Us />

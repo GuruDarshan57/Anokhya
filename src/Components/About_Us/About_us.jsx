@@ -84,7 +84,11 @@ const About_us = () => {
                     <div className="abs_txt">
                         <div className="abs_txt_con">
                             <h1>ANOKHYA TECH-FEST</h1>
-                            <p>uia  a itaque, illum ab corrupti architecto hic pariatur explicabo harum ipsum dolorum, nisi dolorem doloremque optio? Suscipit accusamus maiores nemo dolor aliquam ab quod sunt dignissimos! Veniam dolorum optio repellat labore quidem eveniet ea commodi nostrum. Repellat veritatis at consectetur amet ea ex sapiente dolores aliquam. Error, dolor minus debitis nisi ex, nobis recusandae itaque rerum ratione doloribus dolorum? Officiis minus quos quod eius asperiores alias tempora itaque, a perferendis quae, obcaecati voluptatem distinctio sequi sapiente omnis numquam soluta vero deleniti nostrum voluptate aliquid. Inventore modi accusamus dolorem!</p>
+                            <div className="abs_abs">
+                                <p>Anokhya is a two-day technology festival organized by the Innovation Challenge Series under the auspices of the DSCE Innovation Council and the Department of Artificial Intelligence and Machine Learning at Dayananda Sagar College. </p>
+                                <p>Scheduled for the 16th and 17th of May, 2024, this event showcases nine unique competitions, each designed for individual or team participation. </p>
+                                <p>In addition to the competitions, Anokhya offers a series of workshops and technical talks delivered by industry experts. Anokhya aims to foster innovation and skill development among students, making it a cornerstone event for budding technologists and engineers.</p>
+                            </div>
                             <div className="abs_tinfo">
                                 <div className="abs_t">
                                     <span className='abs_d'>02</span><span className='abs_dt'>DAYS</span>
