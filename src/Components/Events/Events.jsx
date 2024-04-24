@@ -12,42 +12,19 @@ const Events = () => {
                     EVENTS
                 </div>
                 <div className="event_con">
-                    <div className="event_container">
-                        {event_data.map((ele) => {
-                            return <div className="event">
-                                <div className="event_img">
-
+                    {event_data.map((ele) => {
+                        return <div class="event_card">
+                            <div class="event-card-inner">
+                                <div class={`event-card-front event${ele.event_id}`}>
                                 </div>
-                                <div className="event_info">
-                                    <div className="event_name">
-                                        {ele.event_name}
-                                    </div>
-                                    <div className="event_desc">
-                                        {ele.event_description}
-                                    </div>
-                                    <div className="event_tinfo">
-                                        <div className="event_tsize">
-                                            {ele.team_size}
-                                        </div>
-                                        <div className="event_regfee">
-                                            {ele.registration_fees}
-                                        </div>
-                                    </div>
-                                    <div className="event_prizes"
-                                    >{ele.prize_pool.first_prize}
-                                    </div>
-                                    <div className="event_cord">
-                                        Zeta 9876543210
-                                    </div>
+                                <div class="event-card-back" style={{ color: `${ele.colour_code}` }}>
+                                    <h2>{ele.event_name}</h2>
+                                    <p>{ele.event_description}</p>
+                                    <button>Read More</button>
                                 </div>
                             </div>
-                        })}
-
-
-                    </div>
-                </div>
-                <div className="event_page_info">
-
+                        </div>
+                    })}
                 </div>
             </div>
 

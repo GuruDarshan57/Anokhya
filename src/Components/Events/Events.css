@@ -1,12 +1,12 @@
 .events{
-    height: 100vh;
+    min-height: 180vh;
     width:100vw;
     background-image: url(../../Assets/Events/Events_bg.png);
     background-size: cover;
     background-position: left;
     background-attachment: fixed;
     position: relative;
-    padding: 100px;
+    padding: 20px;
     display: flex;
 }
 .events_bottom{
@@ -22,9 +22,8 @@
     width: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-evenly;
     padding: 20px;
-    position: relative;
 }
 .events_head{
     font-weight: 600;
@@ -33,41 +32,130 @@
     letter-spacing: 3px;
     width:180px;
     border-bottom: solid 3px yellow;
+    margin-bottom: 30px;
+    margin-left: 40px;
 }
 .event_con{
-    height: 65%;
     width: 100%;
-    overflow: scroll;
-}
-.event_page_info{
-    height: 50px;
-    width: 200px;
-    background-color: blanchedalmond;
-    align-self:flex-end;
-}
-.event_container{
-    width: 100%;
-    height: 100%;
+    height: 85%;
     display: flex;
-    gap: 20px;
-
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 40px 80px;
 }
-.event{
-    display: flex;
+.event_card {
+    background-color: transparent;
+    width: 300px;
+    height: 300px;
+    perspective: 1000px;
+    border-radius: 4px;
+  }
+  
+  .event-card-inner {
+    position: relative;
     width: 100%;
     height: 100%;
-    border: solid 2px white;
-}
-.event_img{
-    width:400px;
-    height: 100%;
-    border: solid 2px yellow;
-    background-image: url(../../Assets/Events/S2.jpg);
+    background-color: white;
     background-size: cover;
-    background-position: cright;
-}
-.event_info{
-    width:600px;
+    background-position: center;
+    border-radius: 5px;
+    transition: transform 1s;
+    transform-style: preserve-3d;
+  }
+  
+  .event_card:hover .event-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  .event-card-front, .event-card-back {
+    position: absolute;
+    width: 100%;
     height: 100%;
-    color: white;
+    
+    border-radius: 4px;
+  }
+  
+  .event-card-front {
+    background-size: cover;
+    background-position: center;
+    
+  }
+  
+  .event-card-back {
+    -webkit-backface-visibility: hidden; 
+    backface-visibility: hidden;
+    background-color: rgba(0, 0, 0, 0.714);
+    transform: rotateY(180deg);
+    padding: 30px;
+    color:yellow;
+    text-align:justify;
+    overflow: scroll;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+  }
+  .event-card-back h2{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+  }
+  .event-card-back button{
+    padding: 3px;
+    margin-top: 8px;
+    font-size: 15px;
+    letter-spacing: 1px;
+    background-color: rgba(0, 0, 0, 0.26);
+    border: solid 2px aquamarine;
+    color: aquamarine;
+
+    border-radius: 4px;
+  }
+  .event-card-back button:hover{
+    cursor: pointer;
+  }
+.event1{
+    background-image: url(../../Assets/Events/Ev1.png);
+}
+.event2{
+    background-image: url(../../Assets/Events/Ev2.png);
+}
+.event3{
+    background-image: url(../../Assets/Events/Ev3.png);
+}
+.event4{
+    background-image: url(../../Assets/Events/Ev4.png);
+}
+.event5{
+    background-image: url(../../Assets/Events/Ev5.png);
+}
+.event6{
+    background-image: url(../../Assets/Events/Ev6.png);
+}
+.event7{
+    background-image: url(../../Assets/Events/Ev7.png);
+}
+.event8{
+    background-image: url(../../Assets/Events/Ev8.png);
+}
+.event9{
+    background-image: url(../../Assets/Events/Ev9.png);
+}
+
+@media(max-width:460px){
+    .events{
+        padding-bottom: 30px;
+    }
+    .events_head{
+        text-align:center;
+        margin-left: 0;
+        align-self: center;
+    }
+    .events_bottom{
+        bottom: 1px;
+    }
+    .events_bottom img{
+        height: 27px;
+    }
 }
