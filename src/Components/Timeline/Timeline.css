@@ -2,8 +2,9 @@
     background-color: rgba(0, 0, 0, 0.953);
     background-image: url(../../Assets/grid-bg.png);
     padding: 50px 0;
-    background-position: 50% 50%;
-    background-attachment: fixed,scroll;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
     overflow-x: hidden;
 }
 .timeline_head{
@@ -83,13 +84,13 @@
     border: solid 5px yellow;
 }
 .left-container .timelineimgdiv{
-    box-shadow: 0 0 0 3px yellow,inset 0 2px 0 rgba(0,0,0,.08),0 3px 0 4px rgba(0,0,0,.05);
+    box-shadow: 0 0 0 3px yellow,inset 0 2px 0 rgba(0,0,0,.08),0 3px 0 4px rgba(0,0,.05);
 }
 .right-container .timelineimgdiv{
 left: -20px;
 background-color:yellow;
 border: solid 5px white;
-box-shadow: 0 0 0 3px white,inset 0 2px 0 rgba(0,0,0,.08),0 3px 0 4px rgba(0,0,0,.05);
+box-shadow: 0 0 0 3px white,inset 0 2px 0 rgba(0,0,0,.08),0 3px 0 4px rgba(0,0,.05);
 }
 
 .maintimeline::after{

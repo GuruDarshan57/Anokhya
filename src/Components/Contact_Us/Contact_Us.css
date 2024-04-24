@@ -17,7 +17,6 @@
     font-weight: 600;
     font-size: 30px;
     border-bottom: solid 2px yellow;
-    animation: cd-bounce;
 }
 .conts_name,.conts_contact,.conts_query{
     display: flex;
@@ -192,7 +191,7 @@
       .conts_img img{
         height: 28px;
         position: relative;
-        top:30px
+        top:30px;
     }
 }
 

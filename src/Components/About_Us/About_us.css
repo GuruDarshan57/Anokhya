@@ -33,7 +33,7 @@
 }
 .abs_timer h2 span{
     font-weight: 500;
-    font-size: px;
+    font-size: 48px;
     font-family: "Barlow Condensed", sans-serif;
     font-style: italic;
     color: yellow;
@@ -49,6 +49,7 @@
     letter-spacing: 1px;
     display: flex;
     gap: 20px;
+    align-items: end;
 }
 #time{
     color:white;
@@ -72,8 +73,8 @@
     justify-content: center;
 }
 .abs_txt_con{
-    width: 90%;
-    padding:20px;
+    width: 75%;
+    padding:20px 20px 20px 0px;
     margin-top: 40px;
 }
 .abs_txt_con h1{
@@ -161,7 +162,7 @@
         padding: 0;
     }
     .abs_txt_con{
-        width:100%
+        width:100%;
     }
     .abs_txt_con h1{
         font-size: 40px;
@@ -207,7 +208,7 @@
 }
 #label p{
     font-family: "Barlow Condensed", sans-serif;
-    color:yellow
+    color:yellow;
 }
     
 }
@@ -220,6 +221,9 @@
     }
     .abs_txt_con p{
         font-size: 11px;
+    }
+    .abs_timer h2 span{
+        font-size: 40px;
     }
     .abs_tinfo{
         gap: 20px;
