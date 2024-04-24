@@ -40,7 +40,7 @@ function Home() {
 
                     {/* <a href="#" className="action_btn">Download Brouchre</a> */}
 
-                    <button className='dbroubutton'>
+                    <button className='dbroubutton' id='btnwin'>
                         B R O U C H R E
                         <div id="clip">
                             <div id="leftTop" class="corner"></div>
@@ -56,6 +56,7 @@ function Home() {
                         <i className="fa-solid fa-bars"></i>
                     </div>
                 </div>
+                
                 <div className='dropdown_menu'>
                     <ul>
                         <li className='li'><a className='a' href="#">Home</a></li>
@@ -63,7 +64,19 @@ function Home() {
                         <li className='li'><a className='a' href="#">Events</a></li>
                         <li className='li'><a className='a' href="#">Timeline</a></li>
                         <li className='li'><a className='a' href="#">Contact</a></li>
-                        <li className='li'><a href='#' className='action_btn'>Download Brouchre</a></li>
+                        {/* <li className='li'><a href='#' className='action_btn'>Download Brouchre</a></li> */}
+                        <li className='li'><button className='dbroubutton'>
+                        B R O U C H R E
+                        <div id="clip">
+                            <div id="leftTop" class="corner"></div>
+                            <div id="rightBottom" class="corner"></div>
+                            <div id="rightTop" class="corner"></div>
+                            <div id="leftBottom" class="corner"></div>
+                        </div>
+                        <span id="rightArrow" class="arrow"></span>
+                        <span id="leftArrow" class="arrow"></span>
+                    </button>
+                    </li>
                     </ul>
                 </div>
             </header>
