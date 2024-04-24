@@ -65,7 +65,7 @@
 }
 #label p{
     font-family: "Barlow Condensed", sans-serif;
-    color:yellow
+    color:yellow;
 }
 .abs_txt{
     flex: 1;
