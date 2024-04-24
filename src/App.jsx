@@ -3,12 +3,12 @@ import './App.css'
 import { useEffect, useState } from 'react'
 
 
-// import Contact_Us from './Components/Contact_Us/Contact_Us'
-// import About_us from './Components/About_Us/About_us'
-// import Timeline from './Components/Timeline/Timeline'
+import Contact_Us from './Components/Contact_Us/Contact_Us'
+import About_us from './Components/About_Us/About_us'
+import Timeline from './Components/Timeline/Timeline'
 import Home from './Components/Home/Home'
 import PageLoader from './Components/PageLoader/PageLoader'
-// import Events from './Components/Events/Events'
+import Events from './Components/Events/Events'
 
 
 import Aos from 'aos'
@@ -31,10 +31,10 @@ function App() {
           <div className='homeanim'>
             <Home />
           </div>
-          {/* <About_us />
+          <About_us />
           <Events />
           <Timeline />
-          <Contact_Us /> */}
+          <Contact_Us />
         </>)}
     </>
   )
