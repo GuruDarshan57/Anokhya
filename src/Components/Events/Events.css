@@ -126,31 +126,31 @@
     color: orange;
   }
 .event1{
-    background-image: url(../../Assets/Events/Ev1.png);
+    background-image: url(../../Assets/Events/1.png);
 }
 .event2{
-    background-image: url(../../Assets/Events/Ev2.png);
+    background-image: url(../../Assets/Events/2.png);
 }
 .event3{
-    background-image: url(../../Assets/Events/Ev3.png);
+    background-image: url(../../Assets/Events/3.png);
 }
 .event4{
-    background-image: url(../../Assets/Events/Ev4.png);
+    background-image: url(../../Assets/Events/4.png);
 }
 .event5{
-    background-image: url(../../Assets/Events/Ev5.png);
+    background-image: url(../../Assets/Events/5.png);
 }
 .event6{
-    background-image: url(../../Assets/Events/Ev6.png);
+    background-image: url(../../Assets/Events/6.png);
 }
 .event7{
-    background-image: url(../../Assets/Events/Ev7.png);
+    background-image: url(../../Assets/Events/7.png);
 }
 .event8{
-    background-image: url(../../Assets/Events/Ev8.png);
+    background-image: url(../../Assets/Events/8.png);
 }
 .event9{
-    background-image: url(../../Assets/Events/Ev9.png);
+    background-image: url(../../Assets/Events/9.png);
 }
 
 @media(max-width:460px){
