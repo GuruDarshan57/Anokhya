@@ -1,7 +1,7 @@
 .timebody{
     background-color: rgba(0, 0, 0, 0.953);
     background-image: url(../../Assets/grid-bg.png);
-    padding: 50px 0;
+    padding: 50px 0px;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -49,7 +49,7 @@
 }
 
 .left-container{
-    left:0;
+    left:0px;
 }
 
 .right-container{
@@ -84,13 +84,13 @@
     border: solid 5px yellow;
 }
 .left-container .timelineimgdiv{
-    box-shadow: 0 0 0 3px yellow,inset 0 2px 0 rgba(0,0,0,.08),0 3px 0 4px rgba(0,0,.05);
+    box-shadow: 0px 0px 0px 3px yellow,inset 0 2px 0 rgba(0,0,0,.08),0 3px 0 4px rgba(0,0,.05);
 }
 .right-container .timelineimgdiv{
 left: -20px;
 background-color:yellow;
 border: solid 5px white;
-box-shadow: 0 0 0 3px white,inset 0 2px 0 rgba(0,0,0,.08),0 3px 0 4px rgba(0,0,.05);
+box-shadow: 0px 0px 0px 3px white,inset 0 2px 0 rgba(0,0,0,.08),0 3px 0 4px rgba(0,0,.05);
 }
 
 .maintimeline::after{
@@ -115,8 +115,8 @@ box-shadow: 0 0 0 3px white,inset 0 2px 0 rgba(0,0,0,.08),0 3px 0 4px rgba(0,0,.
 }
 
 .left-container-arrow{
-    height: 0;
-    width: 0;
+    height: 0px;
+    width: 0px;
     position: absolute;
     top: 28px;
     z-index: 1;
@@ -127,8 +127,8 @@ box-shadow: 0 0 0 3px white,inset 0 2px 0 rgba(0,0,0,.08),0 3px 0 4px rgba(0,0,.
 }
 
 .right-container-arrow{
-    height: 0;
-    width: 0;
+    height: 0px;
+    width: 0px;
     position: absolute;
     top: 28px;
     z-index: 1;
@@ -162,7 +162,7 @@ box-shadow: 0 0 0 3px white,inset 0 2px 0 rgba(0,0,0,.08),0 3px 0 4px rgba(0,0,.
     }
 
     .right-container{
-        left: 0;
+        left: 0px;
     }
 
     .left-container .timelineimgdiv,.right-container .timelineimgdiv{
@@ -173,7 +173,7 @@ box-shadow: 0 0 0 3px white,inset 0 2px 0 rgba(0,0,0,.08),0 3px 0 4px rgba(0,0,.
 
     .left-container-arrow, .right-container-arrow{
         border-right:15px solid #fff;
-        border-left: 0;
+        border-left: 0px;
         left: -12px;
     }
     .left-container-arrow{
@@ -206,6 +206,6 @@ box-shadow: 0 0 0 3px white,inset 0 2px 0 rgba(0,0,0,.08),0 3px 0 4px rgba(0,0,.
         font-size: 28px;
         color: white;
         border-bottom:solid 2px yellow;
-        margin-bottom: 0;
+        margin-bottom: 0px;
     }
 }

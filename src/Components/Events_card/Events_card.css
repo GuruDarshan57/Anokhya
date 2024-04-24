@@ -17,7 +17,7 @@
        padding: 20px 15px;
        display: flex;
        flex-direction: column;
-       box-shadow: 0 5px 20px aqua;
+       box-shadow: 0px 5px 20px aqua;
        transition: 0.3s ease-in-out;
        align-items: center;
        margin-bottom: 86px;
