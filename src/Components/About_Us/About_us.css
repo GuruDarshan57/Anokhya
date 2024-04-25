@@ -90,7 +90,6 @@
     line-height: 35px;
     color: white;
     text-align: justify;
-    font-family: "Nunito";
 }
 .abs_tinfo{
     display: flex;
@@ -135,7 +134,7 @@
         color: white;
     }
     .abs_txt_con h1{
-        color: yellow;
+        color: #ffff00;
     }
     .abs_txt_con{
         margin-top: 20px;
@@ -183,10 +182,10 @@
     }
     .abs_timer{
         margin: 50px 0px;
-        border: solid 2px rgba(255, 255, 0, 0.628);
+        border: solid 2px rgb(255, 255, 255);
         /* border-right: solid 4px rgb(255, 255, 0);
         border-bottom: solid 4px rgb(255, 255, 0); */
-        box-shadow: 5px 5px 0 rgba(255, 255, 0, 0.628);
+        box-shadow: 3px 5px 0  rgb(255, 255, 0);
         padding: 20px ;
         border-radius: 20px;
         background-color: rgba(255, 255, 255, 0.048);
@@ -227,7 +226,7 @@
         font-size: 11px;
     }
     .abs_timer h2 span{
-        font-size: 40px;
+        font-size: 38px;
     }
     .abs_tinfo{
         gap: 20px;

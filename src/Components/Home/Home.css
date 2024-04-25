@@ -426,3 +426,11 @@ a:hover{
 }
 
 
+@media(max-width:450px){
+  .body{
+    background-image: url(../../Assets/Landing.png);
+  }
+  .navbar{
+    display: none;
+  }
+}
