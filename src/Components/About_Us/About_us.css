@@ -169,6 +169,7 @@
     }
     .abs_txt_con{
         margin-top: 10px;
+        padding: 20px;
     }
     .abs_txt_con p{
         font-size: 12px;
@@ -183,7 +184,7 @@
     .abs_timer{
         margin: 50px 0px;
         border: solid 2px rgb(255, 255, 0);
-        padding: 15px ;
+        padding: 20px ;
         border-radius: 20px;
         background-color: rgba(255, 255, 255, 0.048);
         backdrop-filter: blur(20px);

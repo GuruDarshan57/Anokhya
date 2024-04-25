@@ -85,7 +85,7 @@ const About_us = () => {
                         <div className="abs_txt_con">
                             <h1>ANOKHYA TECH-FEST</h1>
                             <div className="abs_abs">
-                                <p>Anokhya is a two-day technology festival organized by the Innovation Challenge Series under the auspices of the DSCE Innovation Council and the Department of Artificial Intelligence and Machine Learning at Dayananda Sagar College. </p>
+                                <p>Anokhya is a 2-Day Tech Fest organized by the department of Artificial Intelligence and Machine Learning under the aegis of DSCE Innovation Council and SCRS Students Chapter. </p>
                                 <p>Scheduled for the 16th and 17th of May, 2024, this event showcases nine unique competitions, each designed for individual or team participation. </p>
                                 <p>In addition to the competitions, Anokhya offers a series of workshops and technical talks delivered by industry experts. Anokhya aims to foster innovation and skill development among students, making it a cornerstone event for budding technologists and engineers.</p>
                             </div>
