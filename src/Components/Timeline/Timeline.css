@@ -1,10 +1,6 @@
 .timebody{
-    background-color: rgba(0, 0, 0, 0.953);
-    background-image: url(../../Assets/grid-bg.png);
+    background-color: rgba(255, 255, 255, 0.04);
     padding: 50px 0px;
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
     overflow-x: hidden;
 }
 .timeline_head{
@@ -191,7 +187,7 @@ box-shadow: 0px 0px 0px 3px white,inset 0 2px 0 rgba(0,0,0,.08),0 3px 0 4px rgba
 
 @media(max-width:460px){
     .timebody{
-        background-color: rgba(0, 0, 0, 0.959);
+        background-color: rgba(255, 255, 255, 0.04);
     }
     .text-box{
         font-size: 14px;

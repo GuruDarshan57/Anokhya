@@ -1,3 +1,6 @@
 body{
     background-color: rgb(0, 0, 0);
+    background-image: url(./Assets/grid-bg.png);
+    background-position: 50% 50%;
+    background-attachment:fixed;
   }
