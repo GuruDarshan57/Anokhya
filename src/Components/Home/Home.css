@@ -7,6 +7,9 @@
     background-position: center;
     background-repeat: no-repeat;
 }
+.home_m{
+  display: none;
+}
 
 .li{
     list-style: none;
@@ -429,9 +432,43 @@ a:hover{
 
 @media(max-width:450px){
   .body{
-    background-image: url(../../Assets/Landing.png);
+    height: 100vh;
+    width: 100vw;
+    background-image: url(../../Assets/LPMV/Landing_mobile_bg.png);
   }
   .navbar{
     display: none;
+  }
+  .header{
+    display: none;
+  }
+  .home_m{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    border: solid 1px yellow;
+  }
+  .home_m_top_left{
+    color: yellow;
+    position: absolute;
+    top:5px;
+    left: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    
+  }
+  .home_m_top_left h3{
+    font-size: 17px;
+    letter-spacing: 2px;
+    font-family: "Barlow Condensed", sans-serif;
+  }
+  .home_m_top_left p{
+    color: white;
+    font-size: 9px;
+    letter-spacing: 1px;
+    font-family: "Barlow Condensed", sans-serif;
+    
   }
 }

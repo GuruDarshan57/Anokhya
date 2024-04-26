@@ -2,7 +2,7 @@
     min-height: 111vh;
     background-color: black;
     background-image: url(../../Assets/Abs_bg.png);
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
     padding: 15px;
 }

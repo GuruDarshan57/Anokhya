@@ -23,7 +23,7 @@ function Home() {
     }, []);
 
     function handleButtonClick() {
-        window.location.href = 'https://google.com/'; 
+        window.location.href = 'https://google.com/';
     }
 
     return (
@@ -43,7 +43,7 @@ function Home() {
 
 
                     {/* <a href="#" className="action_btn">Download Brouchre</a> */}
-                
+
                     <button className='dbroubutton' id='btnwin' onClick={handleButtonClick}>
                         B R O C H U R E
                         <div id="clip">
@@ -60,7 +60,7 @@ function Home() {
                         <i className="fa-solid fa-bars"></i>
                     </div>
                 </div>
-                
+
                 <div className='dropdown_menu'>
                     <ul>
                         <li className='li'><a className='a' href="#Home">Home</a></li>
@@ -70,20 +70,26 @@ function Home() {
                         <li className='li'><a className='a' href="#Contact">Contact</a></li>
                         {/* <li className='li'><a href='#' className='action_btn'>Download Brouchre</a></li> */}
                         <li className='li'><button className='dbroubutton'>
-                        B R O C H U R E
-                        <div id="clip">
-                            <div id="leftTop" class="corner"></div>
-                            <div id="rightBottom" class="corner"></div>
-                            <div id="rightTop" class="corner"></div>
-                            <div id="leftBottom" class="corner"></div>
-                        </div>
-                        <span id="rightArrow" class="arrow"></span>
-                        <span id="leftArrow" class="arrow"></span>
-                    </button>
-                    </li>
+                            B R O C H U R E
+                            <div id="clip">
+                                <div id="leftTop" class="corner"></div>
+                                <div id="rightBottom" class="corner"></div>
+                                <div id="rightTop" class="corner"></div>
+                                <div id="leftBottom" class="corner"></div>
+                            </div>
+                            <span id="rightArrow" class="arrow"></span>
+                            <span id="leftArrow" class="arrow"></span>
+                        </button>
+                        </li>
                     </ul>
                 </div>
             </header>
+            <div className="home_m">
+                <div className="home_m_top_left">
+                    <h3>TECH FEST 2024</h3>
+                    <p>EVENTS WORKSHOPS TECH-TALKS</p>
+                </div>
+            </div>
         </div>
     );
 }
