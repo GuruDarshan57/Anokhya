@@ -62,3 +62,9 @@
     }
 
 }
+
+@media(max-width:460px){
+    .pgl{
+        height: 95vh;
+    }
+}

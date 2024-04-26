@@ -1,6 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import './Home.css';
 
+import logo from '../../Assets/LPMV/Logo.png'
+import banner from '../../Assets/LPMV/Banner.png'
+
 function Home() {
     const [isOpen, setIsOpen] = useState(false);
 
@@ -88,6 +91,26 @@ function Home() {
                 <div className="home_m_top_left">
                     <h3>TECH FEST 2024</h3>
                     <p>EVENTS WORKSHOPS TECH-TALKS</p>
+                    <p style={{ color: 'yellow' }}>16th - 17th MAY 2024</p>
+                </div>
+                <div className="home_m_logo">
+                    <img src={logo} alt="" />
+                </div>
+                <div className="home_m_banner">
+                    <img src={banner} alt="" />
+                </div>
+                <div className="home_m_buttons">
+                    <button>DOWNLOAD BROCHURE</button>
+                </div>
+                <div className="home_m_info">
+                    <p>Brought to you by</p>
+                    <h4>DAYANANDA SAGAR COLLEGE OF ENGINEERING</h4>
+                    <h5>Department of Artificial Intelligence & Machine Learning</h5>
+                </div>
+                <div className="home_m_links">
+                    <div><a href="#"><i class="fa-brands fa-instagram" style={{ color: "#ffffff" }}></i></a></div>
+                    <div><a href="#"><i class="fa-brands fa-linkedin" style={{ color: "#ffffff" }}></i></a></div>
+                    <div><a href="#"><i class="fa-brands fa-facebook" style={{ color: "#ffffff" }}></i></a></div>
                 </div>
             </div>
         </div>

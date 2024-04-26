@@ -432,7 +432,10 @@ a:hover{
 
 @media(max-width:450px){
   .body{
-    height: 100vh;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    min-height: 95vh;
     width: 100vw;
     background-image: url(../../Assets/LPMV/Landing_mobile_bg.png);
   }
@@ -443,25 +446,30 @@ a:hover{
     display: none;
   }
   .home_m{
-    display: flex;
-    height: 100%;
-    width: 100%;
-    position: relative;
-    border: solid 1px yellow;
-  }
-  .home_m_top_left{
-    color: yellow;
-    position: absolute;
-    top:5px;
-    left: 8px;
+    margin: 0;
+    padding: 0;
     display: flex;
     flex-direction: column;
-    gap: 5px;
+    height: 100%;
+    width: 100vw;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    color: yellow;
+  }
+  .home_m_top_left{
+    color: rgb(255, 255, 0);
+    position: absolute;
+    top:20px;
+    left: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
     
   }
   .home_m_top_left h3{
-    font-size: 17px;
-    letter-spacing: 2px;
+    font-size: 20 px;
+    letter-spacing: 1px;
     font-family: "Barlow Condensed", sans-serif;
   }
   .home_m_top_left p{
@@ -470,5 +478,80 @@ a:hover{
     letter-spacing: 1px;
     font-family: "Barlow Condensed", sans-serif;
     
+  }
+  .home_m_logo{
+    position: absolute;
+    right:1px;
+    top: 1px;
+  }
+  .home_m_logo img{
+    height: 100px;
+  }
+  .home_m_banner{
+    display: grid;
+    place-items: center;
+  }
+  .home_m_banner img{
+    height: 280px;
+    width: 350px;
+    object-fit: cover;
+    object-position: center;
+  }
+  .home_m_buttons{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .home_m_buttons button{
+    font-weight:600;
+    padding: 8px 15px;
+    color: black;
+    background-color: yellow;
+    border: solid 2px black;
+    border-radius: 4px;
+    letter-spacing: 2px;
+  }
+  .home_m_info{
+    opacity: 100%;
+    width:320px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    border: solid 2px rgb(255, 255, 0);
+    padding: 5px 15px;
+    border-radius:20px;
+  }
+  .home_m_info p{
+    font-size: 10px;
+    color: white;
+    letter-spacing: 1px;
+  }
+  .home_m_info h4{
+    text-align: center;
+    letter-spacing: 1px;
+  }
+  .home_m_info h5{
+    font-size: 15px;
+    color: white;
+    text-align: center;
+  }
+  .home_m_links{
+    margin-top: 30px;
+    display: flex;
+    gap: 30px;
+  }
+  .home_m_links i{
+    border-radius: 100%;
+  }
+  .home_m_links div{
+    height: 50px;
+    width: 50px;
+    display: grid;
+    place-items: center;
+    font-size: 30px;
+    background-color: #ffffff26;
+    border-radius: 100%;
   }
 }
