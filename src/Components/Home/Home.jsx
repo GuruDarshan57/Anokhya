@@ -23,25 +23,25 @@ function Home() {
     }, []);
 
     return (
-        <div className='body'>
+        <div className='body' id='Home'>
             <header className='header'>
                 <div className="navbar">
                     <div className="logo">
                         <a className="a" href="#">Anokhya</a>
                     </div>
                     <ul className="links">
-                        <li className='li'><a className='a' href="#">Home</a></li>
-                        <li className='li'><a className='a' href="#">About</a></li>
-                        <li className='li'><a className='a' href="#">Events</a></li>
-                        <li className='li'><a className='a' href="#">Timeline</a></li>
-                        <li className='li'><a className='a' href="#">Contact</a></li>
+                        <li className='li'><a className='a' href="#Home">Home</a></li>
+                        <li className='li'><a className='a' href="#About">About</a></li>
+                        <li className='li'><a className='a' href="#Events">Events</a></li>
+                        <li className='li'><a className='a' href="#Timeline">Timeline</a></li>
+                        <li className='li'><a className='a' href="#Contact">Contact</a></li>
                     </ul>
 
 
                     {/* <a href="#" className="action_btn">Download Brouchre</a> */}
 
                     <button className='dbroubutton' id='btnwin'>
-                        B R O U C H R E
+                        B R O C H U R E
                         <div id="clip">
                             <div id="leftTop" class="corner"></div>
                             <div id="rightBottom" class="corner"></div>
@@ -59,14 +59,14 @@ function Home() {
                 
                 <div className='dropdown_menu'>
                     <ul>
-                        <li className='li'><a className='a' href="#">Home</a></li>
-                        <li className='li'><a className='a' href="#">About</a></li>
-                        <li className='li'><a className='a' href="#">Events</a></li>
-                        <li className='li'><a className='a' href="#">Timeline</a></li>
-                        <li className='li'><a className='a' href="#">Contact</a></li>
+                        <li className='li'><a className='a' href="#Home">Home</a></li>
+                        <li className='li'><a className='a' href="#About">About</a></li>
+                        <li className='li'><a className='a' href="#Events">Events</a></li>
+                        <li className='li'><a className='a' href="#Timeline">Timeline</a></li>
+                        <li className='li'><a className='a' href="#Contact">Contact</a></li>
                         {/* <li className='li'><a href='#' className='action_btn'>Download Brouchre</a></li> */}
                         <li className='li'><button className='dbroubutton'>
-                        B R O U C H R E
+                        B R O C H U R E
                         <div id="clip">
                             <div id="leftTop" class="corner"></div>
                             <div id="rightBottom" class="corner"></div>

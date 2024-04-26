@@ -6,7 +6,7 @@ function Timeline() {
 
 
     return (
-        <div className='timebody'>
+        <div className='timebody' id='Timeline'>
             <div className="timeline_head">TIMELINE</div>
             <div className="maintimeline">
 

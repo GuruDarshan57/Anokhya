@@ -6,7 +6,7 @@ import event_data from '../../Assets/Data/Events_data.json'
 
 const Events = () => {
     return (
-        <div className="events">
+        <div className="events" id='Events'>
             <div className="events_con">
                 <div className="events_head">
                     EVENTS

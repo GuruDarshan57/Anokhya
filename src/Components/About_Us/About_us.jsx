@@ -64,7 +64,7 @@ const About_us = () => {
 
 
     return (
-        <div className="about_us">
+        <div className="about_us" id='About'>
             <div className="abs_con">
                 <div className="abs_head">ABOUT US</div>
                 <div className="abs_body">

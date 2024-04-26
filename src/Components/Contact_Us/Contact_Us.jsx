@@ -41,7 +41,7 @@ const Contact_Us = () => {
 
 
     return (
-        <div className="conts">
+        <div className="conts" id='Contact'>
             <ToastContainer position="top-right"
                 autoClose={4000}
                 hideProgressBar={false}
