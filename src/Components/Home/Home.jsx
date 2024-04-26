@@ -22,6 +22,10 @@ function Home() {
         };
     }, []);
 
+    function handleButtonClick() {
+        window.location.href = 'https://google.com/'; 
+    }
+
     return (
         <div className='body' id='Home'>
             <header className='header'>
@@ -39,8 +43,8 @@ function Home() {
 
 
                     {/* <a href="#" className="action_btn">Download Brouchre</a> */}
-
-                    <button className='dbroubutton' id='btnwin'>
+                
+                    <button className='dbroubutton' id='btnwin' onClick={handleButtonClick}>
                         B R O C H U R E
                         <div id="clip">
                             <div id="leftTop" class="corner"></div>
