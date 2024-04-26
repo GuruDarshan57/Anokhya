@@ -100,7 +100,7 @@ function Home() {
                     <img src={banner} alt="" />
                 </div>
                 <div className="home_m_buttons">
-                    <button>DOWNLOAD BROCHURE</button>
+                    <button onClick={handleButtonClick}>DOWNLOAD BROCHURE</button>
                 </div>
                 <div className="home_m_info">
                     <p>Brought to you by</p>
