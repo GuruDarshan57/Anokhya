@@ -11,10 +11,17 @@ const Contact_Us = () => {
     const [email, Setemail] = useState("");
     const [query, Setquery] = useState("");
 
+    const [submitDisabled, setSubmitDisabled] = useState(false);
+ 
     const form = useRef();
 
     const sendEmail = (e) => {
         e.preventDefault();
+
+        if (submitDisabled) {
+            toast.info("Please wait before submitting again.");
+            return;
+        }
 
         emailjs
             .sendForm(
@@ -27,11 +34,19 @@ const Contact_Us = () => {
                 (result) => {
                     toast.success("Message Sent Successfully !")
                     console.log("message sent");
+                    setSubmitDisabled(true);
+                    setTimeout(() => {
+                        setSubmitDisabled(false);
+                    }, 180000); 
                 }
                 ,
                 (error) => {
                     toast.error("Error Sending The Message")
                     console.log("error sending the message")
+                    setSubmitDisabled(true);
+                    setTimeout(() => {
+                        setSubmitDisabled(false);
+                    }, 180000); 
                 })
 
     }
