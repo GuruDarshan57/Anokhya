@@ -1,7 +1,6 @@
 import React, { useEffect, useRef } from 'react';
 import './Event.css';
 import event_data from '../../Assets/Data/Events_data.json';
-
 import VanillaTilt from 'vanilla-tilt';
 
 
@@ -28,6 +27,7 @@ function Tilt(props) {
 function Coderelay() {
   const event_ = event_data[window.location.pathname.slice(8,)-1];
   const btn_id = event_.button_id
+  const eimg2 = event_.img_path;
 
   useEffect(() => {
     const script = document.createElement('script');
@@ -55,9 +55,14 @@ function Coderelay() {
 
           <div className="card_comp">
             <div className='card_img_style' >
-              <img src={`${window.location.pathname.slice(8,)}.png`} alt="Event" />
+              <img src={eimg2} alt="Event" />
             </div>
             
+            <div className='event_registration_button'>
+            {/* Container for the script tag */}
+            <div id="konfhub-widget-container"></div>
+          </div>
+
           </div>
 
           <div className="text_comp">
@@ -66,6 +71,7 @@ function Coderelay() {
                 <p style={{ whiteSpace: "pre-wrap"}}><i class="fa-regular fa-calendar" style={{color: "ffffff"}}></i>  Event Date (Prelims): TBD</p>
                 <p style={{ whiteSpace: "pre-wrap"}}><i class="fa-regular fa-calendar" style={{color: "ffffff"}}></i>  Event Date (Finals): {event_.event_time}</p>
                 <p> <i class="fa-solid fa-user-group" style={{color: "#fafcff"}}></i>   Team Size: {event_.team_size}</p>
+                <p> Registration Fee: {event_.registration_fees}</p>
               </div>
             </Tilt>
 
@@ -100,10 +106,7 @@ function Coderelay() {
           <h2 className='event_heading'>{event_.event_name}</h2>
             <p>{event_.event_description}</p>
           </div>
-          <div className='event_registration_button'>
-            {/* Container for the script tag */}
-            <div id="konfhub-widget-container"></div>
-          </div>
+
           <div className='event_rules'></div>
         </div>
       </div>

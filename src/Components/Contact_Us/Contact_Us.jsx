@@ -37,7 +37,7 @@ const Contact_Us = () => {
                     setSubmitDisabled(true);
                     setTimeout(() => {
                         setSubmitDisabled(false);
-                    }, 180000); 
+                    }, 300000); 
                 }
                 ,
                 (error) => {
@@ -46,7 +46,7 @@ const Contact_Us = () => {
                     setSubmitDisabled(true);
                     setTimeout(() => {
                         setSubmitDisabled(false);
-                    }, 180000); 
+                    }, 300000); 
                 })
 
     }

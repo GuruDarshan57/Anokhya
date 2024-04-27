@@ -34,8 +34,10 @@
 
 .card_comp {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap:30px;
 }
 
 .event_time_details,
@@ -64,7 +66,6 @@
 }
 
 .event_description {
-    height: 30vh;
     display: flex;
     flex-direction: column;
     padding-left: 80px;
@@ -102,7 +103,7 @@
 
         width: 300px;
         height: 300px;
-        margin-bottom: 40px;
+        /* margin-bottom: 40px; */
     }
 
 
@@ -111,10 +112,17 @@
     .event_prize_details {
         width: 280px;
         height: 150px;
-        padding-left: 40px;
+        padding-left: 20px;
     }
 
     .event_registration_button{
-        margin-top: 40px;
+        margin-bottom: 40px;
     }
+
+    .event_description {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    
 }
