@@ -438,6 +438,7 @@ a:hover{
     min-height: 95vh;
     width: 100vw;
     background-image: url(../../Assets/LPMV/Landing_mobile_bg.png);
+    background-position: 50% 50%;
   }
   .navbar{
     display: none;
@@ -520,7 +521,7 @@ a:hover{
     align-items: center;
     gap: 10px;
     border: solid 2px rgb(255, 255, 0);
-    padding: 5px 15px;
+    padding: 10px 15px;
     border-radius:20px;
   }
   .home_m_info p{
