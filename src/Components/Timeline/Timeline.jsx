@@ -153,9 +153,9 @@ function Timeline() {
                     <div data-aos="zoom-in" className='timelineimgdiv'>
                     </div>
                     <div data-aos="fade-right" className="text-box lt">
-                        <h2><b>Tech Tinder</b></h2>
-                        <small>17th May 14:00 to 16:00</small>
-                        <p>Discover connections at Tech Tinder! Engage in tech conversations and spark innovative collaborations.</p>
+                        <h2><b>Valorant Gaming</b></h2>
+                        <small>16th & 17th May 9:00 to 18:00</small>
+                        <p>Join us for an adrenaline-pumping gaming event centered around the popular tactical shooter, Valorant! </p>
                         <span className='left-container-arrow'></span>
                     </div>
                 </div>
