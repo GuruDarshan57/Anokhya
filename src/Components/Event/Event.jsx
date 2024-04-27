@@ -66,8 +66,10 @@ function Coderelay() {
           <Tilt options={options}>
             <div className='event_time_details'>
               <p style={{ whiteSpace: "pre-wrap" }}><i class="fa-regular fa-calendar" style={{ color: "ffffff" }}></i>  Event Date (Prelims): TBD</p>
-              <p style={{ whiteSpace: "pre-wrap" }}><i class="fa-regular fa-calendar" style={{ color: "ffffff" }}></i>  Event Date (Finals): TBD{event_.event_time}</p>
+              <p style={{ whiteSpace: "pre-wrap" }}><i class="fa-regular fa-calendar" style={{ color: "ffffff" }}></i>  Event Date (Finals): {event_.event_time}</p>
+              <p><i class="fa-solid fa-money-check-dollar" style={{ color: "#ffffff" }}></i> Fee: {event_.registration_fees}</p>
               <p> <i class="fa-solid fa-user-group" style={{ color: "#fafcff" }}></i>   Team Size: {event_.team_size}</p>
+
             </div>
           </Tilt>
 
