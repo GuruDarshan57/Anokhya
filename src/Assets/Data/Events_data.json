@@ -9,12 +9,15 @@
             "second_prize":"INR 3000"
         },
         "team_size":"Individual",
+        "event_time":"17th May",
+        "event_time_24":"14:00 to 16:00",
         "event_coordinator1":"Kajal",
-        "coordinator1_mobile": "9876543210",
+        "coordinator1_mobile": "8597631667",
         "event_coordinator2":"Chetan",
-        "coordinator2_mobile":"9876543210",
+        "coordinator2_mobile":"6364583008",
         "colour_code":"#FF50B4",
-	     "button_id": "btn_f532dcb58b20"
+	     "button_id": "btn_f532dcb58b20",
+         "img_path": "https://objectstorage.ap-hyderabad-1.oraclecloud.com/p/t6BVBJ1-FGrX6flF4RtHIn4sPxDhD2CqDwoiCaSk5LwtsKUnyZdDnib2GvwwU95g/n/axllowusnmeq/b/Anokhya/o/thumbnails/tech_tinder.jpg"
     },
 
     {
@@ -27,12 +30,15 @@
             "second_prize": "INR 2000"
         },
         "team_size":"4",
+        "event_time":"16th May",
+        "event_time_24":"14:30 to 16:30",
         "event_coordinator1": "Suryanshu",
         "coordinator1_mobile": "9449037095",
         "event_coordinator2": "Disha",
         "coordinator2_mobile":"9632583573",
         "colour_code":"#5CE1E6",
-		"button_id": "btn_eda0daee708c"
+		"button_id": "btn_eda0daee708c",
+        "img_path": "https://objectstorage.ap-hyderabad-1.oraclecloud.com/p/t6BVBJ1-FGrX6flF4RtHIn4sPxDhD2CqDwoiCaSk5LwtsKUnyZdDnib2GvwwU95g/n/axllowusnmeq/b/Anokhya/o/thumbnails/code_relay.jpg"
 
     },
 
@@ -47,12 +53,15 @@
             "third_prize":"Third Prize: INR 1000"
         },
         "team_size":"5",
+        "event_time":"May 16 - 17",
+        "event_time_24":"9:00 to 18:00",
         "event_coordinator1":"Meshank",
         "coordinator1_mobile":"8955242466",
         "event_coordinator2":"Ashwin",
         "coordinator2_mobile":"8762449632",
         "colour_code":"#FF3131",
-        "button_id": "btn_c79d101f0ba7"
+        "button_id": "btn_c79d101f0ba7",
+        "img_path":"https://objectstorage.ap-hyderabad-1.oraclecloud.com/p/t6BVBJ1-FGrX6flF4RtHIn4sPxDhD2CqDwoiCaSk5LwtsKUnyZdDnib2GvwwU95g/n/axllowusnmeq/b/Anokhya/o/thumbnails/gaming_saga.jpg"
     },
 
     {
@@ -65,12 +74,15 @@
             "second_prize":"INR 1500"
         },
         "team_size":"2 to 4",
+        "event_time":"16th May",
+        "event_time_24":"16:30 to 18:00",
         "event_coordinator1":"Abhitha",
         "coordinator1_mobile":"8296455102",
         "event_coordinator2":"Priya",
         "coordinator2_mobile":"7676898004",
         "colour_code":"#FFFFFF",
-        "button_id": "btn_8dd11a828ef0"
+        "button_id": "btn_8dd11a828ef0",
+        "img_path":"https://objectstorage.ap-hyderabad-1.oraclecloud.com/p/t6BVBJ1-FGrX6flF4RtHIn4sPxDhD2CqDwoiCaSk5LwtsKUnyZdDnib2GvwwU95g/n/axllowusnmeq/b/Anokhya/o/thumbnails/deploy_it.jpg"
     },
 
     {
@@ -83,12 +95,15 @@
             "second_prize":"INR 500 worth gift cards"
         },
         "team_size":"2",
+        "event_time":"17th May",
+        "event_time_24":"11:00 to 13:00",
         "event_coordinator1":"Ananya",
         "coordinator1_mobile":"8660430679",
         "event_coordinator2":"Uday",
         "coordinator2_mobile":"8297822077",
         "colour_code":"#ffde59",
-        "button_id": "btn_de7faf3306cc"
+        "button_id": "btn_de7faf3306cc",
+        "img_path":"https://objectstorage.ap-hyderabad-1.oraclecloud.com/p/t6BVBJ1-FGrX6flF4RtHIn4sPxDhD2CqDwoiCaSk5LwtsKUnyZdDnib2GvwwU95g/n/axllowusnmeq/b/Anokhya/o/thumbnails/picture_probe.jpg"
     },
 
     {
@@ -102,12 +117,15 @@
             "third_prize":"Third Prize: INR 1000"
         },
         "team_size":"2 to 3",
+        "event_time":"16th May",
+        "event_time_24":"16:30 to 18:00",
         "event_coordinator1":"Srihari",
         "coordinator1_mobile":"7483707839",
         "event_coordinator2":"Nouman",
         "coordinator2_mobile":"8431609172",
         "colour_code":"#c1ff72",
-        "button_id": "btn_e4ea6894d56c"
+        "button_id": "btn_e4ea6894d56c",
+        "img_path":"https://objectstorage.ap-hyderabad-1.oraclecloud.com/p/t6BVBJ1-FGrX6flF4RtHIn4sPxDhD2CqDwoiCaSk5LwtsKUnyZdDnib2GvwwU95g/n/axllowusnmeq/b/Anokhya/o/thumbnails/pc_building.jpg"
     },
 
     {
@@ -120,12 +138,15 @@
             "second_prize":"INR 500 worth gift cards"
         },
         "team_size":"2 to 3",
+        "event_time":"17th May",
+        "event_time_24":"11:00 to 13:00",
         "event_coordinator1":"Prateek",
         "coordinator1_mobile":"9380876050",
         "event_coordinator2":"Manjunatha",
         "coordinator2_mobile":"7411231569",
         "colour_code":"#ebe8d7",
-        "button_id": "btn_86a2ecf88577"
+        "button_id": "btn_86a2ecf88577",
+        "img_path":"https://objectstorage.ap-hyderabad-1.oraclecloud.com/p/t6BVBJ1-FGrX6flF4RtHIn4sPxDhD2CqDwoiCaSk5LwtsKUnyZdDnib2GvwwU95g/n/axllowusnmeq/b/Anokhya/o/thumbnails/ui_ux.jpg"
     },
 
     {
@@ -138,12 +159,15 @@
             "second_prize":"INR 500 worth gift cards"
         },
         "team_size":"Individual",
+        "event_time":"16th May",
+        "event_time_24":"14:30 to 16:30",
         "event_coordinator1":"Dhyan",
         "coordinator1_mobile":"8197334363",
         "event_coordinator2":"Punith",
         "coordinator2_mobile":"9019435522",
         "colour_code":"#23ff9c",
-        "button_id": "btn_fd87bdaed84e"
+        "button_id": "btn_fd87bdaed84e",
+        "img_path":"https://objectstorage.ap-hyderabad-1.oraclecloud.com/p/t6BVBJ1-FGrX6flF4RtHIn4sPxDhD2CqDwoiCaSk5LwtsKUnyZdDnib2GvwwU95g/n/axllowusnmeq/b/Anokhya/o/thumbnails/hack_my_pc.jpg"
     },
 
     {
@@ -156,11 +180,14 @@
             "second_prize":"INR 500 worth gift cards"
         },
         "team_size":"Individual",
+        "event_time":"16th May",
+        "event_time_24":"11:30 to 13:30",
         "event_coordinator1":"Deekshitha",
-        "coordinator1_mobile":"9876543210",
+        "coordinator1_mobile":"7975767331",
         "event_coordinator2":"Saketh",
-        "coordinator2_mobile":"9876543210",
+        "coordinator2_mobile":"9036036171",
         "colour_code":"#ff914d",
-        "button_id": "btn_6467b8f97a2c"
+        "button_id": "btn_6467b8f97a2c",
+        "img_path":"https://objectstorage.ap-hyderabad-1.oraclecloud.com/p/t6BVBJ1-FGrX6flF4RtHIn4sPxDhD2CqDwoiCaSk5LwtsKUnyZdDnib2GvwwU95g/n/axllowusnmeq/b/Anokhya/o/thumbnails/meme_splash.jpg"
     }
 ]
