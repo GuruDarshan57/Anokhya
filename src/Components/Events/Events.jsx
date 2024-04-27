@@ -21,7 +21,11 @@ const Events = () => {
                                 <div class="event-card-back" style={{ color: `${ele.colour_code}` }}>
                                     <h2>{ele.event_name}</h2>
                                     <p>{ele.event_description.length > 280 ? ele.event_description.slice(0, 280) + " ..... Read More" : ele.event_description}</p>
+<<<<<<< HEAD
                                     <button ><a href={`/events/${ele.event_id}`}>Read More</a></button>
+=======
+                                    <a href="/events/code_relay">Explore More</a>
+>>>>>>> 0136b57eca8fa47173598abb6c0300b86d810c30
                                 </div>
                             </div>
                         </div>
@@ -32,7 +36,7 @@ const Events = () => {
             <div className="events_bottom">
                 <img src={bimg} alt="" />
             </div>
-        </div>
+        </div >
     )
 }
 
