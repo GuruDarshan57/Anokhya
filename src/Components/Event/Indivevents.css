@@ -14,7 +14,7 @@
     text-align: center;
     color: white;
     font-weight: 600;
-    margin-bottom: 8vh;
+    margin-bottom:3vh;
 }
 
 .card_img_style img {
@@ -64,20 +64,36 @@
 }
 
 .event_description {
-    width: 80vw;
     height: 30vh;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: column;
+    padding-left: 80px;
+    align-items: flex-start;
     color: white;
+    padding-right: 80px;
 }
 
+.event_description h2{
+    text-transform: uppercase;
+    font-size: 40px;
+    border-bottom: 2px solid yellow;
+}
+
+.event_description p{
+    font-size: 18px;
+    text-align: justify;
+}
 .other_event_details {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+}
+
+.name_and_phone{
+    display: flex;
+    gap:16px;
 }
 
 

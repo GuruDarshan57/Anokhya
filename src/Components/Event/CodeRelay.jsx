@@ -49,7 +49,7 @@ function Coderelay() {
   return (
     <>
       <div className="IndEventmain">
-        <h2 className='event_heading'>{event_.event_name}</h2>
+      
 
         <div className="indeve">
 
@@ -57,22 +57,23 @@ function Coderelay() {
             <div className='card_img_style' >
               <img src={eimg} alt="Event" />
             </div>
+            
           </div>
 
           <div className="text_comp">
             <Tilt options={options}>
               <div className='event_time_details'>
-                <p>Event Date (Prelims): TBD</p>
-                <p>Event Date (Finals): {event_.event_time}</p>
-                <p>Team Size: {event_.team_size}</p>
+                <p style={{ whiteSpace: "pre-wrap"}}><i class="fa-regular fa-calendar" style={{color: "ffffff"}}></i>  Event Date (Prelims): TBD</p>
+                <p style={{ whiteSpace: "pre-wrap"}}><i class="fa-regular fa-calendar" style={{color: "ffffff"}}></i>  Event Date (Finals): {event_.event_time}</p>
+                <p> <i class="fa-solid fa-user-group" style={{color: "#fafcff"}}></i>   Team Size: {event_.team_size}</p>
               </div>
             </Tilt>
 
             <Tilt>
               <div className='event_prize_details'>
                 <h2> Exciting Prizes</h2>
-                <p>First Prize: {event_.prize_pool.first_prize}</p>
-                <p>Second Prize: {event_.prize_pool.second_prize}</p>
+                <p> First Prize: {event_.prize_pool.first_prize}</p>
+                <p> Second Prize: {event_.prize_pool.second_prize}</p>
                 <p>{event_.prize_pool.third_prize}</p>
               </div>
             </Tilt>
@@ -80,8 +81,15 @@ function Coderelay() {
             <Tilt>
               <div className='event_coordinators_details'>
                 <h2>Co-ordinator Details</h2>
-                <p>Name: {event_.event_coordinator1}</p>
-                <p>Phone: {event_.coordinator1_mobile}</p>
+                <div className='name_and_phone'>
+                <p><i class="fa-solid fa-user" style={{color: "#ffffff"}}></i> {event_.event_coordinator1}</p>
+                <p style={{ whiteSpace: "pre-wrap"}}><i class="fa-brands fa-whatsapp" style={{color: "#ffffff"}}></i> {event_.coordinator1_mobile}</p>
+                </div>
+
+                <div className='name_and_phone'>
+                <p><i class="fa-solid fa-user" style={{color: "#ffffff"}}></i> {event_.event_coordinator2}</p>
+                <p style={{ whiteSpace: "pre-wrap"}}><i class="fa-brands fa-whatsapp" style={{color: "#ffffff"}}></i> {event_.coordinator2_mobile}</p>
+                </div>
               </div>
             </Tilt>
           </div>
@@ -89,6 +97,7 @@ function Coderelay() {
         </div>
         <div className='other_event_details'>
           <div className='event_description'>
+          <h2 className='event_heading'>{event_.event_name}</h2>
             <p>{event_.event_description}</p>
           </div>
           <div className='event_registration_button'>
