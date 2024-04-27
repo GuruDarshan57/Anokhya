@@ -1,6 +1,6 @@
 import React from 'react'
 import Home from './Pages/Home/Home'
-import Coderelay from './Components/Event/CodeRelay'
+import Event from './Components/Event/Event'
 
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 
@@ -9,7 +9,7 @@ const App = () => {
     <Router>
       <Routes>
         <Route path='/' element={<Home />} />
-        <Route path='/events/code_relay' element={<Coderelay />} />
+        <Route path='/events/:id' element={<Event />} />
       </Routes>
     </Router>
   )

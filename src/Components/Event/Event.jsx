@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from 'react';
-import './Indivevents.css';
+import './Event.css';
 import event_data from '../../Assets/Data/Events_data.json';
-import eimg from '../../Assets/Events/8.png';
+
 import VanillaTilt from 'vanilla-tilt';
 
 
@@ -26,7 +26,7 @@ function Tilt(props) {
 }
 
 function Coderelay() {
-  const event_ = event_data[2];
+  const event_ = event_data[window.location.pathname.slice(8,)-1];
   const btn_id = event_.button_id
 
   useEffect(() => {
@@ -47,7 +47,7 @@ function Coderelay() {
 
 
   return (
-    <>
+    <>{console.log(window.location.pathname.slice(8,))}
       <div className="IndEventmain">
       
 
@@ -55,7 +55,7 @@ function Coderelay() {
 
           <div className="card_comp">
             <div className='card_img_style' >
-              <img src={eimg} alt="Event" />
+              <img src={`${window.location.pathname.slice(8,)}.png`} alt="Event" />
             </div>
             
           </div>

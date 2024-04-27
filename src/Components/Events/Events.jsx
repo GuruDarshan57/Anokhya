@@ -21,7 +21,7 @@ const Events = () => {
                                 <div class="event-card-back" style={{ color: `${ele.colour_code}` }}>
                                     <h2>{ele.event_name}</h2>
                                     <p>{ele.event_description.length > 280 ? ele.event_description.slice(0, 280) + " ..... Read More" : ele.event_description}</p>
-                                    <button ><a href="/events/code_relay">Read More</a></button>
+                                    <button ><a href={`/events/${ele.event_id}`}>Read More</a></button>
                                 </div>
                             </div>
                         </div>
