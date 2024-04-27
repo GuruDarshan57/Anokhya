@@ -3,6 +3,7 @@ import './Events.css'
 
 import bimg from '../../Assets/bottom.png'
 import event_data from '../../Assets/Data/Events_data.json'
+import { Navigate } from 'react-router-dom'
 
 const Events = () => {
     return (
@@ -13,14 +14,14 @@ const Events = () => {
                 </div>
                 <div className="event_con">
                     {event_data.map((ele) => {
-                        return <div class="event_card">
+                        return <div key={ele.event_id} class="event_card">
                             <div class="event-card-inner">
                                 <div class={`event-card-front event${ele.event_id}`}>
                                 </div>
                                 <div class="event-card-back" style={{ color: `${ele.colour_code}` }}>
                                     <h2>{ele.event_name}</h2>
                                     <p>{ele.event_description.length > 280 ? ele.event_description.slice(0, 280) + " ..... Read More" : ele.event_description}</p>
-                                    <button>Read More</button>
+                                    <button ><a href="/events/code_relay">Read More</a></button>
                                 </div>
                             </div>
                         </div>

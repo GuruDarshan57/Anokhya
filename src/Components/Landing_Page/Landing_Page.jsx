@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import './Home.css';
+import './Landing_Page.css';
 
 import logo from '../../Assets/LPMV/Logo.png'
 import banner from '../../Assets/LPMV/Banner.png'

@@ -1,0 +1,104 @@
+.IndEventmain {
+    background: url('../../Assets/Events/Events_bg.png');
+    background-size: cover;
+    background-position: left;
+    background-attachment: fixed;
+    position: relative;
+    padding: 20px;
+    overflow-x: hidden;
+    height: 100vh;
+    /* background-color: black; */
+}
+
+.event_heading {
+    text-align: center;
+    color: white;
+    font-weight: 600;
+    margin-bottom: 8vh;
+}
+
+.card_img_style img {
+    background-color: transparent;
+    width: 400px;
+    height: 400px;
+    perspective: 1000px;
+    border-radius: 5px;
+    border: none;
+}
+
+.indeve {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.card_comp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.event_time_details,
+.event_coordinators_details,
+.event_prize_details {
+    width: 400px;
+    height: 150px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 80px;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 16px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(5px);
+    perspective: 1000px;
+    border: 2px solid rgba(255, 255, 255, 0.547);
+    color: white;
+}
+
+
+.event_registration_button {
+    display: flex;
+    justify-content: center;
+}
+
+.event_description {
+    width: 80vw;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.other_event_details {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+
+@media(max-width:576px) {
+    .card_img_style img {
+
+        width: 300px;
+        height: 300px;
+        margin-bottom: 40px;
+    }
+
+
+    .event_time_details,
+    .event_coordinators_details,
+    .event_prize_details {
+        width: 280px;
+        height: 150px;
+        padding-left: 40px;
+    }
+
+    .event_registration_button{
+        margin-top: 40px;
+    }
+}
