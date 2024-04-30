@@ -1,7 +1,7 @@
 .IndEventmain {
     height: 100%;
     min-height: 100vh;
-    background: url('../../Assets/Events/Events_bg.png');
+    background: url('../../Assets/Events/BG.png');
     background-size: cover;
     background-position: center;
     position: relative;
