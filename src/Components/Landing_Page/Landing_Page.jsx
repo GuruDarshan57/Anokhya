@@ -5,25 +5,25 @@ import logo from '../../Assets/LPMV/Logo.png'
 import banner from '../../Assets/LPMV/Banner.png'
 
 function Home() {
-    const [isOpen, setIsOpen] = useState(false);
+    // const [isOpen, setIsOpen] = useState(false);
 
-    useEffect(() => {
-        const dropdown_menu = document.querySelector('.dropdown_menu');
-        const toggle_btnIcon = document.querySelector('.toggle_btn i');
+    // useEffect(() => {
+    //     const dropdown_menu = document.querySelector('.dropdown_menu');
+    //     const toggle_btnIcon = document.querySelector('.toggle_btn i');
 
-        const click = () => {
-            dropdown_menu.classList.toggle('open');
-            const isOpen = dropdown_menu.classList.contains('open');
-            toggle_btnIcon.classList = isOpen ? 'fa-solid fa-xmark' : 'fa-solid fa-bars';
-        };
+    //     const click = () => {
+    //         dropdown_menu.classList.toggle('open');
+    //         const isOpen = dropdown_menu.classList.contains('open');
+    //         toggle_btnIcon.classList = isOpen ? 'fa-solid fa-xmark' : 'fa-solid fa-bars';
+    //     };
 
-        const toggle_btn = document.querySelector('.toggle_btn');
-        toggle_btn.addEventListener('click', click);
+    //     const toggle_btn = document.querySelector('.toggle_btn');
+    //     toggle_btn.addEventListener('click', click);
 
-        return () => {
-            toggle_btn.removeEventListener('click', click);
-        };
-    }, []);
+    //     return () => {
+    //         toggle_btn.removeEventListener('click', click);
+    //     };
+    // }, []);
 
     function handleButtonClick() {
         window.location.href = 'https://google.com/';
@@ -31,7 +31,7 @@ function Home() {
 
     return (
         <div className='body' id='Home'>
-            <header className='header'>
+            {/* <header className='header'>
                 <div className="navbar">
                     <div className="logo">
                         <a className="a" href="#">Anokhya</a>
@@ -45,7 +45,6 @@ function Home() {
                     </ul>
 
 
-                    {/* <a href="#" className="action_btn">Download Brouchre</a> */}
 
                     <button className='dbroubutton' id='btnwin' onClick={handleButtonClick}>
                         B R O C H U R E
@@ -71,7 +70,6 @@ function Home() {
                         <li className='li'><a className='a' href="#Events">Events</a></li>
                         <li className='li'><a className='a' href="#Timeline">Timeline</a></li>
                         <li className='li'><a className='a' href="#Contact">Contact</a></li>
-                        {/* <li className='li'><a href='#' className='action_btn'>Download Brouchre</a></li> */}
                         <li className='li'><button className='dbroubutton'>
                             B R O C H U R E
                             <div id="clip">
@@ -86,8 +84,8 @@ function Home() {
                         </li>
                     </ul>
                 </div>
-            </header>
-            <div className="home_m">
+            </header > */}
+            <div div className="home_m" >
                 <div className="home_m_top_left">
                     <h3>TECH FEST 2024</h3>
                     <p>EVENTS WORKSHOPS TECH-TALKS</p>
@@ -100,7 +98,9 @@ function Home() {
                     <img src={banner} alt="" />
                 </div>
                 <div className="home_m_buttons">
-                    <button onClick={handleButtonClick}>DOWNLOAD BROCHURE</button>
+                    <button onClick={handleButtonClick}>BROCHURE</button>
+                    <a href="#Events">EVENTS</a>
+                    <a href="#Timeline">TIMELINE</a>
                 </div>
                 <div className="home_m_info">
                     <p>Brought to you by</p>
@@ -108,12 +108,12 @@ function Home() {
                     <h5>Department of Artificial Intelligence & Machine Learning</h5>
                 </div>
                 <div className="home_m_links">
-                    <div><a href="#"><i class="fa-brands fa-instagram" style={{ color: "#ffffff" }}></i></a></div>
+                    <div><a href="https://www.instagram.com/_anokhya?igsh=MTR5Y3lhejA1NHZpMw=="><i class="fa-brands fa-instagram" style={{ color: "#ffffff" }}></i></a></div>
                     <div><a href="#"><i class="fa-brands fa-linkedin" style={{ color: "#ffffff" }}></i></a></div>
                     <div><a href="#"><i class="fa-brands fa-facebook" style={{ color: "#ffffff" }}></i></a></div>
                 </div>
-            </div>
-        </div>
+            </div >
+        </div >
     );
 }
 

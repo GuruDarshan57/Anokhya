@@ -1,4 +1,4 @@
-
+/* 
 .body{
     height:100vh;
     background-color: #0000;
@@ -51,7 +51,6 @@ a:hover{
 
 .navbar .links{
     display: flex;
-    /* gap: 1rem; */
 }
 
 .logo{
@@ -93,7 +92,6 @@ a:hover{
 .dropdown_menu{
     display: none;
     position:absolute;
-    /* right: 2rem; */
     top: 60px;
     width: 300px;
     height: 0px;
@@ -410,11 +408,6 @@ a:hover{
     }
 
 
-    /* .navbar{
-      display: flex;
-      justify-content: flex-end;
-    } */
-
 }
 
 .body {
@@ -428,6 +421,126 @@ a:hover{
   left: 0px;
   width: 100%;
 }
+ */
+
+
+ /*  TEMPORARY CSS   */
+ .body{
+  position: relative;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  width: 100vw;
+  background-position: 50% 50%;
+}
+.navbar{
+  display: none;
+}
+.header{
+  display: none;
+}
+.home_m{
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  color: yellow;
+}
+.home_m_top_left{
+  color: rgb(255, 255, 0);
+  position: absolute;
+  top:20px;
+  left: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  
+}
+.home_m_top_left h3{
+  font-size: 25px;
+  letter-spacing: 2px;
+  font-family: "Barlow Condensed", sans-serif;
+}
+.home_m_top_left p{
+  color: white;
+  font-size: 13px;
+  letter-spacing: 2px;
+  font-family: "Barlow Condensed", sans-serif;
+  
+}
+.home_m_logo{
+  position: absolute;
+  right:1px;
+  top: 1px;
+}
+.home_m_logo img{
+  height: 120px;
+}
+.home_m_banner{
+  display: grid;
+  place-items: center;
+}
+.home_m_banner img{
+  height: 300px;
+  width: 400px;
+  object-fit: cover;
+  object-position: center;
+}
+.home_m_buttons{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  gap: 30px;
+}
+.home_m_buttons button{
+  cursor: pointer;
+  flex: 1;
+  font-weight:600;
+  padding: 8px 15px;
+  color: black;
+  background-color: yellow;
+  border: solid 2px black;
+  border-radius: 4px;
+  letter-spacing: 2px;
+}
+.home_m_buttons a{
+  cursor: pointer;
+  text-decoration: none;
+  text-align:center;
+  font-weight:600;
+  padding: 8px 15px;
+  color: black;
+  background-color: yellow;
+  border: solid 2px black;
+  border-radius: 4px;
+  letter-spacing: 2px;
+  font-size:15px;
+}
+.home_m_info{
+  display: none;
+}
+.home_m_links{
+  margin-top: 30px;
+  display: flex;
+  gap: 30px;
+}
+.home_m_links i{
+  border-radius: 100%;
+}
+.home_m_links div{
+  height: 50px;
+  width: 50px;
+  display: grid;
+  place-items: center;
+  font-size: 30px;
+  background-color: #ffffff26;
+  border-radius: 100%;
+}
 
 
 @media(max-width:450px){
@@ -435,7 +548,7 @@ a:hover{
     position: relative;
     margin: 0;
     padding: 0;
-    min-height: 95vh;
+    height: 95vh;
     width: 100vw;
     background-image: url(../../Assets/LPMV/Landing_mobile_bg.png);
     background-position: 50% 50%;
@@ -469,7 +582,7 @@ a:hover{
     
   }
   .home_m_top_left h3{
-    font-size: 20 px;
+    font-size: 20px;
     letter-spacing: 1px;
     font-family: "Barlow Condensed", sans-serif;
   }
@@ -511,6 +624,9 @@ a:hover{
     border: solid 2px black;
     border-radius: 4px;
     letter-spacing: 2px;
+  }
+  .home_m_buttons a{
+    display: none;
   }
   .home_m_info{
     opacity: 100%;

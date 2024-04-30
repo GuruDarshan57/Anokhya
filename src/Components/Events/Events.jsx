@@ -15,7 +15,7 @@ const Events = () => {
                 <div className="event_con">
                     {event_data.map((ele) => {
                         return <div key={ele.event_id} class="event_card">
-                            <div class="event-card-inner">
+                            <div class="event-card-inner" id='events'>
                                 <div class={`event-card-front event${ele.event_id}`}>
                                 </div>
                                 <div class="event-card-back" style={{ color: `${ele.colour_code}` }}>

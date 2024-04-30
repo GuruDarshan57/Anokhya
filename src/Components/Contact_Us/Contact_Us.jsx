@@ -12,7 +12,7 @@ const Contact_Us = () => {
     const [query, Setquery] = useState("");
 
     const [submitDisabled, setSubmitDisabled] = useState(false);
- 
+
     const form = useRef();
 
     const sendEmail = (e) => {
@@ -37,7 +37,7 @@ const Contact_Us = () => {
                     setSubmitDisabled(true);
                     setTimeout(() => {
                         setSubmitDisabled(false);
-                    }, 300000); 
+                    }, 300000);
                 }
                 ,
                 (error) => {
@@ -46,7 +46,7 @@ const Contact_Us = () => {
                     setSubmitDisabled(true);
                     setTimeout(() => {
                         setSubmitDisabled(false);
-                    }, 300000); 
+                    }, 300000);
                 })
 
     }
@@ -91,7 +91,7 @@ const Contact_Us = () => {
                 <div className="conts_links">
                     <ul>
                         <li>
-                            <a href="https://www.instagram.com" target='_blank'>
+                            <a href="https://www.instagram.com/_anokhya?igsh=MTR5Y3lhejA1NHZpMw==" target='_blank'>
                                 <i class="fab fa-instagram"></i>
                             </a>
                         </li>
