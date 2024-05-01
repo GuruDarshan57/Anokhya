@@ -497,17 +497,6 @@ a:hover{
   justify-content: space-evenly;
   gap: 30px;
 }
-.home_m_buttons button{
-  cursor: pointer;
-  flex: 1;
-  font-weight:600;
-  padding: 8px 15px;
-  color: black;
-  background-color: yellow;
-  border: solid 2px black;
-  border-radius: 4px;
-  letter-spacing: 2px;
-}
 .home_m_buttons a{
   cursor: pointer;
   text-decoration: none;
@@ -551,7 +540,8 @@ a:hover{
     height: 95vh;
     width: 100vw;
     background-image: url(../../Assets/LPMV/Landing_mobile_bg.png);
-    background-position: 50% 50%;
+    background-position: center;
+    background-size: cover;
   }
   .navbar{
     display: none;
@@ -613,20 +603,16 @@ a:hover{
   }
   .home_m_buttons{
     display: flex;
-    flex-direction: column;
     gap: 10px;
   }
-  .home_m_buttons button{
+  .home_m_buttons a{
     font-weight:600;
     padding: 8px 15px;
     color: black;
-    background-color: yellow;
+    background-color: rgb(255, 255, 0);
     border: solid 2px black;
     border-radius: 4px;
     letter-spacing: 2px;
-  }
-  .home_m_buttons a{
-    display: none;
   }
   .home_m_info{
     opacity: 100%;

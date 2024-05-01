@@ -98,7 +98,7 @@ function Home() {
                     <img src={banner} alt="" />
                 </div>
                 <div className="home_m_buttons">
-                    <button onClick={handleButtonClick}>BROCHURE</button>
+                    <a href='/Anokhya Brochure.pdf' >BROCHURE</a>
                     <a href="#Events">EVENTS</a>
                     <a href="#Timeline">TIMELINE</a>
                 </div>
