@@ -24,14 +24,22 @@
     padding: 20px;
 }
 .events_head{
-    font-weight: 600;
     color: white;
-    font-size: 40px;
     letter-spacing: 3px;
-    width:180px;
-    border-bottom: solid 3px yellow;
     margin-bottom: 30px;
     margin-left: 40px;
+}
+.events_head h2{
+    display: inline;
+    font-size: 40px;
+    border-bottom: solid 3px yellow;
+}
+.events_head p{
+    margin-top: 20px;
+    font-family: "Barlow Condensed", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: yellow;
 }
 .event_con{
     width: 100%;
@@ -163,10 +171,11 @@
         padding-bottom: 30px;
     }
     .events_head{
-        font-size: 28px;
         text-align:left;
         margin-left: 0px;
-        width: 130px;
+    }
+    .events_head h2{
+          font-size: 28px;
     }
     .events_bottom{
         bottom: 1px;

@@ -10,7 +10,8 @@ const Events = () => {
         <div className="events" id='Events'>
             <div className="events_con">
                 <div className="events_head">
-                    EVENTS
+                    <h2>EVENTS</h2>
+                    <p>Click on event card to know more !!</p>
                 </div>
                 <div className="event_con">
                     {event_data.map((ele) => {
