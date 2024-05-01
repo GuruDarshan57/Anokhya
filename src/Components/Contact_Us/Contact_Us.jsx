@@ -96,18 +96,18 @@ const Contact_Us = () => {
                             </a>
                         </li>
                         <li>
-                            <a href="https://www.youtube.com" target='_blank'>
-                                <i class="fab fa-youtube"></i>
+                            <a href="https://discord.gg/xgyTy8FP" target='_blank'>
+                            <i class="fa-brands fa-discord"></i>
                             </a>
                         </li>
                         <li>
-                            <a href="https://www.facebook.com" target='_blank'>
-                                <i class="fab fa-facebook"></i>
+                            <a href="mailto:techfest@anokhya.com" target='_blank'>
+                            <i class="fa-solid fa-envelope"></i>
                             </a>
 
                         </li>
                         <li>
-                            <a href="https://www.linkedin.com" target='_blank'>
+                            <a href="https://www.linkedin.com/company/aimldeptdsce/" target='_blank'>
                                 <i class="fab fa-linkedin"></i>
                             </a>
                         </li>
