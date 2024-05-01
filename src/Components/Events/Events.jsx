@@ -12,6 +12,7 @@ const Events = () => {
                 <div className="events_head">
                     EVENTS
                 </div>
+                <h4 className='note'>Click the event card to know more </h4> 
                 <div className="event_con">
                     {event_data.map((ele) => {
                         return <div key={ele.event_id} class="event_card">
