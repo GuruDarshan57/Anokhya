@@ -48,9 +48,9 @@ function Timeline() {
                     <div data-aos="zoom-in" className='timelineimgdiv'>
                     </div>
                     <div data-aos="fade-left" className="text-box rt">
-                        <h2><b>Code-Relay</b></h2>
+                        <h2><b>UI/UX</b></h2>
                         <small>16th May 14:30 to 16:30</small>
-                        <p>Race to the code at CodeRelay! Join the fast-paced event and conquer programming challenges together!</p>
+                        <p>Dive into design at UI/UX! Explore the art of user interface and user experience creation.</p>
                         <span className='right-container-arrow'></span>
                     </div>
                 </div>
@@ -60,9 +60,9 @@ function Timeline() {
                     <div data-aos="zoom-in" className='timelineimgdiv'>
                     </div>
                     <div data-aos="fade-right" className="text-box lt">
-                        <h2><b>Hack-MY-PC</b></h2>
+                        <h2><b>Picture Probe</b></h2>
                         <small>16th May 14:30 to 16:30</small>
-                        <p>Unlock innovation at Hack My PC! Join the immersive event and delve into the world of hacking.</p>
+                        <p>Explore imagery at Picture Probe! Embark on a visual journey and delve into the world of photography</p>
                         <span className='left-container-arrow'></span>
                     </div>
                 </div>
@@ -107,9 +107,9 @@ function Timeline() {
                     <div data-aos="zoom-in" className='timelineimgdiv'>
                     </div>
                     <div data-aos="fade-right" className="text-box lt">
-                        <h2><b>UI/UX</b></h2>
-                        <small>17th May 11:00 to 13:00</small>
-                        <p>Dive into design at UI/UX! Explore the art of user interface and user experience creation.</p>
+                        <h2><b>Startup Idea Pitching</b></h2>
+                        <small>17th May 10:00 to 13:00</small>
+                        <p>Witness the pinnacle of creativity as aspiring innovators unveil their groundbreaking startup concepts in a thrilling pitch session.</p>
                         <span className='left-container-arrow'></span>
                     </div>
                 </div>
@@ -119,9 +119,10 @@ function Timeline() {
                     <div data-aos="zoom-in" className='timelineimgdiv'>
                     </div>
                     <div data-aos="fade-left" className="text-box rt">
-                        <h2><b>Picture Probe</b></h2>
+                    <h2><b>Code-Relay</b></h2>
                         <small>17th May 11:00 to 13:00</small>
-                        <p>Explore imagery at Picture Probe! Embark on a visual journey and delve into the world of photography</p>
+                        <p>Race to the code at CodeRelay! Join the fast-paced event and conquer programming challenges together!</p>
+
                         <span className='right-container-arrow'></span>
                     </div>
                 </div>
@@ -130,20 +131,20 @@ function Timeline() {
                     <div data-aos="zoom-in" className='timelineimgdiv'>
                     </div>
                     <div data-aos="fade-right" className="text-box lt">
-                        <h2><b>Tech Tinder</b></h2>
+                    <h2><b>Hack-MY-PC</b></h2>
+                        <small>17th May 11:00 to 13:00</small>
+                        <p>Unlock innovation at Hack My PC! Join the immersive event and delve into the world of hacking.</p>
+                        <span className='left-container-arrow'></span>
+                    </div>
+                </div>
+
+                <div className="maincontainer right-container">
+                    <div data-aos="zoom-in" className='timelineimgdiv'>
+                    </div>
+                    <div data-aos="fade-left" className="text-box rt">
+                    <h2><b>Tech Tinder</b></h2>
                         <small>17th May 14:00 to 16:00</small>
                         <p>Discover connections at Tech Tinder! Engage in tech conversations and spark innovative collaborations.</p>
-                        <span className='left-container-arrow'></span>
-                    </div>
-                </div>
-
-                <div className="maincontainer right-container">
-                    <div data-aos="zoom-in" className='timelineimgdiv'>
-                    </div>
-                    <div data-aos="fade-left" className="text-box rt">
-                        <h2><b>Workshop</b></h2>
-                        <small>17th May 14:00 to 16:00</small>
-                        <p>Step into the world of innovation! Welcome to the workshop where learning meets creativity and discovery.</p>
                         <span className='right-container-arrow'></span>
                     </div>
 
@@ -153,12 +154,36 @@ function Timeline() {
                     <div data-aos="zoom-in" className='timelineimgdiv'>
                     </div>
                     <div data-aos="fade-right" className="text-box lt">
-                        <h2><b>Valorant Gaming</b></h2>
-                        <small>16th & 17th May 9:00 to 18:00</small>
-                        <p>Join us for an adrenaline-pumping gaming event centered around the popular tactical shooter, Valorant! </p>
+                    <h2><b>Workshop</b></h2>
+                        <small>17th May 14:00 to 16:00</small>
+                        <p>Step into the world of innovation! Welcome to the workshop where learning meets creativity and discovery.</p>
                         <span className='left-container-arrow'></span>
                     </div>
                 </div>
+
+                <div className="maincontainer right-container">
+                    <div data-aos="zoom-in" className='timelineimgdiv'>
+                    </div>
+                    <div data-aos="fade-left" className="text-box rt">
+                        <h2><b>Valorant Gaming</b></h2>
+                        <small>16th & 17th May 9:00 to 16:00</small>
+                        <p>Join us for an adrenaline-pumping gaming event centered around the popular tactical shooter, Valorant! </p>
+                        <span className='right-container-arrow'></span>
+                    </div>
+                </div>
+
+                <div className="maincontainer left-container">
+                    <div data-aos="zoom-in" className='timelineimgdiv'>
+                    </div>
+                    <div data-aos="fade-right" className="text-box lt">
+                        <h2><b>Ending Ceremony</b></h2>
+                        <small>17th May 16:00 to 17:30</small>
+                        <p>The exhilarating conclusion of our tech fest promises electrifying performances, awards, and unforgettable memories.</p>
+                        <span className='left-container-arrow'></span>
+                    </div>
+                </div>
+
+
 
 
             </div>
