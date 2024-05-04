@@ -24,7 +24,7 @@
     {
         "event_id" : 2,
         "event_name" : "Code-Relay",
-        "event_description": "Welcome to the Code Relay, where teamwork and coding skills collide! In this event, teams will come together to tackle the challenge of writing a large program or completing a project based on given challenges. But here's the twist: each team member will code for a specific duration and must switch with the next member once their time limit is up. It's a test of both individual coding prowess and seamless collaboration as teams race against the clock to bring their project to life.",
+        "event_description": "Think you and your team can conquer a coding challenge? Code Relay throws down the gauntlet with an epic test of teamwork, focus, and coding stamina! Here's the twist: This ain't your average coding competition. You'll tackle a massive program, one teammate at a time, in a pulse-pounding relay race against the clock. Each member dives in for a set time, leaving their mark on the code before passing the baton (or keyboard) to the next. It's a continuous cycle until the finish line, demanding seamless collaboration and razor-sharp coding skills.",
         "registration_fees":"₹199/- per Team",
         "prize_pool": {
             "first_prize": "INR 2500",
@@ -68,7 +68,7 @@
     {
         "event_id":4,
         "event_name":"Deploy It!",
-        "event_description":"Get ready to roll up your sleeves and put your development skills to the test in Deploy It! This fast-paced event challenges teams to tackle simple problem statements by creating both front-end and back-end on the website which is capable of performing specified tasks. But that's not all teams must also deploy their solutions to the cloud to qualify. It's a race against the clock as the fastest three teams to complete the given task will claim victory!",
+        "event_description":"Code mavens, unite! This cosmic cyber-sprint challenges you to transform cosmic riddles into full-stack websites at warp speed. Weave front-end sorcery with back-end alchemy, blazing through tasks, ascending to cloud deployment. Proven cyber-savants only - conquer this Zero-to-Hyperspace Deployment Race! It's a race against the clock as the fastest three teams to complete the given task will claim victory!",
         "registration_fees":"₹149/- per Team",
         "prize_pool":{
             "first_prize":"INR 2500",
