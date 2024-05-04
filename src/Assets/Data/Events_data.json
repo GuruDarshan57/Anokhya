@@ -5,8 +5,9 @@
         "event_description":"Get ready for a unique networking experience at our Tech-Tinder Event! Participants will have the chance to meet fellow tech enthusiasts and potential collaborators as they're matched on the spot to form teams based on their preferences or profiles. Once teamed up, it's time to put your skills to the test by collaborating on the creation of a website from scratch. Whether you're a seasoned developer or a design aficionado, this event offers the perfect opportunity to connect, learn, and create something amazing together.",
         "registration_fees":"₹99/- per Person",
         "prize_pool":{
-            "first_prize":"INR 5000",
-            "second_prize":"INR 3000"
+            "first_prize":"INR 3000",
+            "second_prize":"INR 2000",
+            "third_prize":"Third Prize: INR 1000"
         },
         "team_size":"Individual",
         "event_time":"17th May",
@@ -26,11 +27,11 @@
         "event_description": "Welcome to the Code Relay, where teamwork and coding skills collide! In this event, teams will come together to tackle the challenge of writing a large program or completing a project based on given challenges. But here's the twist: each team member will code for a specific duration and must switch with the next member once their time limit is up. It's a test of both individual coding prowess and seamless collaboration as teams race against the clock to bring their project to life.",
         "registration_fees":"₹199/- per Team",
         "prize_pool": {
-            "first_prize": "INR 3000",
-            "second_prize": "INR 2000"
+            "first_prize": "INR 2500",
+            "second_prize": "INR 1500"
         },
         "team_size":"4",
-        "event_time":"16th May",
+        "event_time":"17th May",
         "event_time_24":"14:30 to 16:30",
         "event_coordinator1": "Suryanshu",
         "coordinator1_mobile": "9449037095",
@@ -48,8 +49,8 @@
         "event_description":"Join us for an adrenaline-pumping gaming event centered around the popular tactical shooter, Valorant! Compete against fellow gamers in intense matches filled with strategic gameplay and nail-biting action. Whether you're a seasoned pro or a newcomer looking to showcase your skills, this event promises excitement and camaraderie for all participants",
         "registration_fees":"₹249/- per Team",
         "prize_pool":{
-            "first_prize":"INR 3000",
-            "second_prize":"INR 2000",
+            "first_prize":"INR 2500",
+            "second_prize":"INR 1500",
             "third_prize":"Third Prize: INR 1000"
         },
         "team_size":"5",
@@ -71,7 +72,8 @@
         "registration_fees":"₹149/- per Team",
         "prize_pool":{
             "first_prize":"INR 2500",
-            "second_prize":"INR 1500"
+            "second_prize":"INR 1500",
+            "third_prize":"Third Prize: INR 1000"
         },
         "team_size":"2 to 4",
         "event_time":"16th May",
@@ -95,7 +97,7 @@
             "second_prize":"₹500 worth gift cards"
         },
         "team_size":"2",
-        "event_time":"17th May",
+        "event_time":"16th May",
         "event_time_24":"11:00 to 13:00",
         "event_coordinator1":"Ananya",
         "coordinator1_mobile":"8660430679",
@@ -112,9 +114,8 @@
         "event_description":"Gear up for an exhilarating PC Building Challenge where participants will showcase their technical prowess and teamwork! In this event, teams will be tasked with assembling a disassembled PC within a specified time frame. The challenge will kick off with a quiz to test participants' knowledge of PC hardware, followed by a simulation round conducted on a PC building simulator. The top 8 teams will then advance to the final round, where they'll face the ultimate test of assembling and running a real PC to complete a given task.",
         "registration_fees":"₹199/- per Team",
         "prize_pool":{
-            "first_prize":"INR 3000",
-            "second_prize":"INR 2000",
-            "third_prize":"Third Prize: INR 1000"
+            "first_prize":"INR 2500",
+            "second_prize":"INR 1500"
         },
         "team_size":"2 to 3",
         "event_time":"16th May",
@@ -138,7 +139,7 @@
             "second_prize":"₹500 worth gift cards"
         },
         "team_size":"2 to 3",
-        "event_time":"17th May",
+        "event_time":"16th May",
         "event_time_24":"11:00 to 13:00",
         "event_coordinator1":"Prateek",
         "coordinator1_mobile":"9380876050",
@@ -159,7 +160,7 @@
             "second_prize":"₹500 worth gift cards"
         },
         "team_size":"Individual",
-        "event_time":"16th May",
+        "event_time":"17th May",
         "event_time_24":"14:30 to 16:30",
         "event_coordinator1":"Dhyan",
         "coordinator1_mobile":"8197334363",
