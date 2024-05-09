@@ -109,7 +109,7 @@ function Home() {
                 </div>
                 <div className="home_m_links">
                     <div><a href="https://www.instagram.com/_anokhya?igsh=MTR5Y3lhejA1NHZpMw=="><i class="fa-brands fa-instagram" style={{ color: "#ffffff" }}></i></a></div>
-                    <div><a href="https://discord.gg/xgyTy8FP"><i class="fa-brands fa-discord" style={{ color: "#ffffff" }}></i></a></div>
+                    <div><a href="https://discord.com/invite/Mg6Re2Kt"><i class="fa-brands fa-discord" style={{ color: "#ffffff" }}></i></a></div>
                     <div><a href="mailto:techfest@anokhya.com"><i class="fa-solid fa-envelope" style={{ color: "#ffffff" }}></i></a></div>
                 </div>
             </div >

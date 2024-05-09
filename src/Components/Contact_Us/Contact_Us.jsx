@@ -96,7 +96,7 @@ const Contact_Us = () => {
                             </a>
                         </li>
                         <li>
-                            <a href="https://discord.gg/xgyTy8FP" target='_blank'>
+                            <a href="https://discord.com/invite/Mg6Re2Kt" target='_blank'>
                             <i class="fa-brands fa-discord"></i>
                             </a>
                         </li>
