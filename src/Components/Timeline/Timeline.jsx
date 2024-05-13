@@ -107,7 +107,7 @@ function Timeline() {
                     <div data-aos="zoom-in" className='timelineimgdiv'>
                     </div>
                     <div data-aos="fade-right" className="text-box lt">
-                        <h2><b>Startup Idea Pitching</b></h2>
+                        <h2><b>Startup Idea Pitching (Work Shop)</b></h2>
                         <small>17th May 10:00 to 13:00</small>
                         <p>Witness the pinnacle of creativity as aspiring innovators unveil their groundbreaking startup concepts in a thrilling pitch session.</p>
                         <span className='left-container-arrow'></span>
@@ -119,7 +119,7 @@ function Timeline() {
                     <div data-aos="zoom-in" className='timelineimgdiv'>
                     </div>
                     <div data-aos="fade-left" className="text-box rt">
-                    <h2><b>Code-Relay</b></h2>
+                        <h2><b>Code-Relay</b></h2>
                         <small>17th May 11:00 to 13:00</small>
                         <p>Race to the code at CodeRelay! Join the fast-paced event and conquer programming challenges together!</p>
 
@@ -131,7 +131,7 @@ function Timeline() {
                     <div data-aos="zoom-in" className='timelineimgdiv'>
                     </div>
                     <div data-aos="fade-right" className="text-box lt">
-                    <h2><b>Hack-MY-PC</b></h2>
+                        <h2><b>Hack-MY-PC</b></h2>
                         <small>17th May 11:00 to 13:00</small>
                         <p>Unlock innovation at Hack My PC! Join the immersive event and delve into the world of hacking.</p>
                         <span className='left-container-arrow'></span>
@@ -142,7 +142,7 @@ function Timeline() {
                     <div data-aos="zoom-in" className='timelineimgdiv'>
                     </div>
                     <div data-aos="fade-left" className="text-box rt">
-                    <h2><b>Tech Tinder</b></h2>
+                        <h2><b>Tech Tinder</b></h2>
                         <small>17th May 14:00 to 16:00</small>
                         <p>Discover connections at Tech Tinder! Engage in tech conversations and spark innovative collaborations.</p>
                         <span className='right-container-arrow'></span>
@@ -154,7 +154,7 @@ function Timeline() {
                     <div data-aos="zoom-in" className='timelineimgdiv'>
                     </div>
                     <div data-aos="fade-right" className="text-box lt">
-                    <h2><b>Workshop</b></h2>
+                        <h2><b>Workshop</b></h2>
                         <small>17th May 14:00 to 16:00</small>
                         <p>Step into the world of innovation! Welcome to the workshop where learning meets creativity and discovery.</p>
                         <span className='left-container-arrow'></span>
