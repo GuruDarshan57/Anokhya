@@ -42,31 +42,31 @@ function Timeline() {
                         <span className='left-container-arrow'></span>
                     </div>
                 </div>
-                <div className="maincontainer left-container">
-                    <div data-aos="zoom-in" className='timelineimgdiv'>
-                    </div>
-                    <div data-aos="fade-right" className="text-box lt">
-                        <h2><b>Picture Probe</b></h2>
-                        <small>16th May 11:30 to 13:30</small>
-                        <p>Explore imagery at Picture Probe! Embark on a visual journey and delve into the world of photography</p>
-                        <span className='left-container-arrow'></span>
-                    </div>
-                </div>
 
 
                 <div className="maincontainer right-container">
                     <div data-aos="zoom-in" className='timelineimgdiv'>
                     </div>
                     <div data-aos="fade-left" className="text-box rt">
-                        <h2><b>UI/UX</b></h2>
-                        <small>16th May 16:30 to 18:00</small>
-                        <p>Dive into design at UI/UX! Explore the art of user interface and user experience creation.</p>
+                        <h2><b>Picture Probe</b></h2>
+                        <small>16th May 11:30 to 13:30</small>
+                        <p>Explore imagery at Picture Probe! Embark on a visual journey and delve into the world of photography</p>
                         <span className='right-container-arrow'></span>
                     </div>
                 </div>
 
 
+                <div className="maincontainer left-container">
+                    <div data-aos="zoom-in" className='timelineimgdiv'>
+                    </div>
+                    <div data-aos="fade-right" className="text-box lt">
+                        <h2><b>UI/UX</b></h2>
+                        <small>16th May 16:30 to 18:00</small>
+                        <p>Dive into design at UI/UX! Explore the art of user interface and user experience creation.</p>
 
+                        <span className='left-container-arrow'></span>
+                    </div>
+                </div>
 
 
                 <div data-aos="zoom-in" className="maincontainer right-container">
