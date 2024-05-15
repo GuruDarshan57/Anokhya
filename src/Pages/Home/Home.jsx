@@ -9,6 +9,7 @@ import Timeline from '../../Components/Timeline/Timeline'
 import Landing_Page from '../../Components/Landing_Page/Landing_Page'
 import PageLoader from '../../Components/PageLoader/PageLoader'
 import Events from '../../Components/Events/Events'
+import Sponsors from '../../Components/Sponsors/Sponsors'
 
 
 import Aos from 'aos'
@@ -37,6 +38,7 @@ function Home() {
                     <About_us />
                     <Events />
                     <Timeline />
+                    <Sponsors/>
                     <Contact_Us />
                 </>)}
         </>

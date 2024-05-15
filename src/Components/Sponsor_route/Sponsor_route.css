@@ -1,0 +1,92 @@
+#app {
+    height: 100%;
+  }
+  
+  html,
+  body {
+    position: relative;
+    height: 100%;
+  }
+  
+  body {
+    background: black;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .swiper {
+    width: 80%;
+    height: 55vh; 
+  }
+  
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: black;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .swiper-slide img {
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+  }
+  
+  .spons_container {
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .cocoa_head h2{
+    width: 230px;
+    letter-spacing: 1px;
+    color: white;
+    font-weight: 600;
+    font-size: 30px;
+    border-bottom: solid 2px yellow;
+  }
+
+  .cocoa_head p {
+    margin-top: 20px;
+    font-family: "Barlow Condensed", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: yellow;
+    font-size: 24px;
+    margin-bottom: 8vh;
+}
+
+.swiper_head{
+    color: white;
+    font-size: 16px;
+    margin-bottom: 8vh;
+    text-align: center;
+}
+
+.asocial{
+  text-decoration: none;
+}
+
+.igtext{
+  color: white;
+}
+
+.socialdiv{
+  display: flex;
+  gap: 10px;
+  font-size: 24px;
+  margin-bottom: 6vh;
+}
+
+@media (max-width: 500px) {
+  .socialdiv{
+    margin-bottom: 0.1vh;
+  }
+}
