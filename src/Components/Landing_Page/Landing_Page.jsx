@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import './Landing_Page.css';
+import Alert_mssg from '../../Components/Alert_mssg/Alert_mssg'
+
 
 import logo from '../../Assets/LPMV/Logo.png'
 import banner from '../../Assets/LPMV/Banner.png'
@@ -12,6 +14,11 @@ function Home() {
 
     return (
         <div className='body' id='Home'>
+
+            <div>
+                <Alert_mssg message="The tickets for Deploy it and Hack My Pc are currently unavailable at this moment." duration={8000} />
+            </div>
+
             <div div className="home_m" >
                 <div className="home_m_top_left">
                     <h3>TECH FEST 2024</h3>
