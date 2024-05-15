@@ -49,7 +49,7 @@ function Timeline() {
                     </div>
                     <div data-aos="fade-left" className="text-box rt">
                         <h2><b>Picture Probe</b></h2>
-                        <small>16th May 11:30 to 13:30</small>
+                        <small>16th May 16:00 to 18:00</small>
                         <p>Explore imagery at Picture Probe! Embark on a visual journey and delve into the world of photography</p>
                         <span className='right-container-arrow'></span>
                     </div>
@@ -61,7 +61,7 @@ function Timeline() {
                     </div>
                     <div data-aos="fade-right" className="text-box lt">
                         <h2><b>UI/UX</b></h2>
-                        <small>16th May 16:30 to 18:00</small>
+                        <small>16th May 16:00 to 18:00</small>
                         <p>Dive into design at UI/UX! Explore the art of user interface and user experience creation.</p>
 
                         <span className='left-container-arrow'></span>
@@ -74,7 +74,7 @@ function Timeline() {
                     </div>
                     <div data-aos="fade-left" className="text-box rt">
                         <h2><b>Deploy It</b></h2>
-                        <small>16th May 16:30 to 18:00</small>
+                        <small>16th May 16:00 to 18:00</small>
                         <p>Dive into deployment at Deploy It! Join the event and explore the world of coding implementation and execution.</p>
                         <span className='right-container-arrow'></span>
                     </div>
@@ -86,7 +86,7 @@ function Timeline() {
                     </div>
                     <div data-aos="fade-right" className="text-box lt">
                         <h2><b>PC Building</b></h2>
-                        <small>16th May 16:30 to 18:00</small>
+                        <small>16th May 16:00 to 18:00</small>
                         <p>Participate in the excitement at PC Building! Dive into the event and craft your perfect machine from scratch.</p>
                         <span className='left-container-arrow'></span>
                     </div>
