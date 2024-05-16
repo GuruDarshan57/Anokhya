@@ -49,7 +49,7 @@ function Timeline() {
                     </div>
                     <div data-aos="fade-left" className="text-box rt">
                         <h2><b>Picture Probe</b></h2>
-                        <small>16th May 16:00 to 18:00</small>
+                        <small>16th May 11:30 to 13:30</small>
                         <p>Explore imagery at Picture Probe! Embark on a visual journey and delve into the world of photography</p>
                         <span className='right-container-arrow'></span>
                     </div>
@@ -97,7 +97,7 @@ function Timeline() {
                     </div>
                     <div data-aos="fade-left" className="text-box rt">
                         <h2><b>Tech Talk</b></h2>
-                        <small>17th May 9:00 to 10:00</small>
+                        <small>17th May 9:00 to 11:30</small>
                         <p>Engage with knowledge at Tech Talk! Immerse yourself in enlightening discussions and cutting-edge insights.</p>
                         <span className='right-container-arrow'></span>
                     </div>
@@ -121,7 +121,7 @@ function Timeline() {
                     </div>
                     <div data-aos="fade-left" className="text-box rt">
                         <h2><b>Code-Relay</b></h2>
-                        <small>17th May 11:00 to 13:00</small>
+                        <small>17th May 11:30 to 13:30</small>
                         <p>Race to the code at CodeRelay! Join the fast-paced event and conquer programming challenges together!</p>
 
                         <span className='right-container-arrow'></span>
@@ -133,7 +133,7 @@ function Timeline() {
                     </div>
                     <div data-aos="fade-right" className="text-box lt">
                         <h2><b>Hack-MY-PC</b></h2>
-                        <small>17th May 11:00 to 13:00</small>
+                        <small>17th May 11:30 to 13:30</small>
                         <p>Unlock innovation at Hack My PC! Join the immersive event and delve into the world of hacking.</p>
                         <span className='left-container-arrow'></span>
                     </div>
@@ -167,7 +167,7 @@ function Timeline() {
                     </div>
                     <div data-aos="fade-left" className="text-box rt">
                         <h2><b>Valorant Gaming</b></h2>
-                        <small>16th & 17th May 9:00 to 16:00</small>
+                        <small>17th May 9:00 to 16:00</small>
                         <p>Join us for an adrenaline-pumping gaming event centered around the popular tactical shooter, Valorant! </p>
                         <span className='right-container-arrow'></span>
                     </div>
@@ -178,7 +178,7 @@ function Timeline() {
                     </div>
                     <div data-aos="fade-right" className="text-box lt">
                         <h2><b>Ending Ceremony</b></h2>
-                        <small>17th May 16:00 to 17:30</small>
+                        <small>17th May 16:00 to 18:00</small>
                         <p>The exhilarating conclusion of our tech fest promises electrifying performances, awards, and unforgettable memories.</p>
                         <span className='left-container-arrow'></span>
                     </div>
