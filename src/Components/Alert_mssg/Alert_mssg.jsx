@@ -22,7 +22,7 @@ const Announcement = ({ message, duration }) => {
       {isVisible && (
 
         <div style={{ backgroundColor: 'yellow', color: 'black', padding: '10px', width: '100%', display: 'flex', justifyContent: 'space-between', fontWeight: "600", textTransform: "uppercase", letterSpacing: "2px" }}>
-          <div>{message}</div>
+          <div>Tech Talk and Workshop scheduled today will be conducted tommorow at 9:00 AM DUE TO TIME CONSTRAINTS.</div>
           <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
             <i className="fa-solid fa-xmark" style={{ color: "#000000" }} onClick={handleClose}></i>
           </div>
