@@ -7,60 +7,60 @@ import React, { useEffect, useRef, useState } from 'react'
 const About_us = () => {
     const Ref = useRef(null);
 
-    const [timer, setTimer] = useState("00:00:00");
+    const [timer, setTimer] = useState("00:00:00:00");
 
-    const getTimeRemaining = (e) => {
-        const total =
-            Date.parse(e) - Date.parse(new Date());
-        const seconds = Math.floor((total / 1000) % 60);
-        const minutes = Math.floor(
-            (total / 1000 / 60) % 60
-        );
-        const hours = Math.floor(
-            (total / 1000 / 60 / 60) % 24
-        );
-        const days = Math.floor(total / 1000 / 60 / 60 / 24)
-        return {
-            total,
-            days,
-            hours,
-            minutes,
-            seconds,
-        };
-    };
-    const startTimer = (e) => {
-        let { total, days, hours, minutes, seconds } =
-            getTimeRemaining(e);
-        if (total >= 0) {
-            setTimer(
-                (days > 9 ? days : "0" + days) + ":" +
-                (hours > 9 ? hours : "0" + hours) +
-                ":" +
-                (minutes > 9
-                    ? minutes
-                    : "0" + minutes) +
-                ":" +
-                (seconds > 9 ? seconds : "0" + seconds)
-            );
-        }
-    };
-    const clearTimer = (e) => {
-        setTimer("00:00:00:00");
+    // const getTimeRemaining = (e) => {
+    //     const total =
+    //         Date.parse(e) - Date.parse(new Date());
+    //     const seconds = Math.floor((total / 1000) % 60);
+    //     const minutes = Math.floor(
+    //         (total / 1000 / 60) % 60
+    //     );
+    //     const hours = Math.floor(
+    //         (total / 1000 / 60 / 60) % 24
+    //     );
+    //     const days = Math.floor(total / 1000 / 60 / 60 / 24)
+    //     return {
+    //         total,
+    //         days,
+    //         hours,
+    //         minutes,
+    //         seconds,
+    //     };
+    // };
+    // const startTimer = (e) => {
+    //     let { total, days, hours, minutes, seconds } =
+    //         getTimeRemaining(e);
+    //     if (total >= 0) {
+    //         setTimer(
+    //             (days > 9 ? days : "0" + days) + ":" +
+    //             (hours > 9 ? hours : "0" + hours) +
+    //             ":" +
+    //             (minutes > 9
+    //                 ? minutes
+    //                 : "0" + minutes) +
+    //             ":" +
+    //             (seconds > 9 ? seconds : "0" + seconds)
+    //         );
+    //     }
+    // };
+    // const clearTimer = (e) => {
+    //     setTimer("00:00:00:00");
 
-        if (Ref.current) clearInterval(Ref.current);
-        const id = setInterval(() => {
-            startTimer(e);
-        }, 1000);
-        Ref.current = id;
-    };
+    //     if (Ref.current) clearInterval(Ref.current);
+    //     const id = setInterval(() => {
+    //         startTimer(e);
+    //     }, 1000);
+    //     Ref.current = id;
+    // };
 
-    const getDeadTime = () => {
-        let deadline = new Date("2024-05-16T18:47:00");
-        return deadline;
-    };
-    useEffect(() => {
-        clearTimer(getDeadTime());
-    }, []);
+    // const getDeadTime = () => {
+    //     let deadline = new Date("2024-05-16T18:47:00");
+    //     return deadline;
+    // };
+    // useEffect(() => {
+    //     clearTimer(getDeadTime());
+    // }, []);
 
 
     return (
@@ -77,9 +77,9 @@ const About_us = () => {
                                     <span style={{ "--index": " 1" }}>AWESOMENESS</span>
                                     <span style={{ "--index": "2" }}>AWESOMENESS</span>
                                 </div>
-                            </div> IN</h2>
-                        <h2 id="time">{timer}</h2>
-                        <div id="label"><p>DAYS</p> <p>HOURS</p>   <p>MINUTES</p><p>SECONDS</p></div>
+                            </div></h2>
+                        <h2 id="time">HAS STARTED</h2>
+                        {/* <div id="label"><p>DAYS</p> <p>HOURS</p>   <p>MINUTES</p><p>SECONDS</p></div> */}
                     </div>
                     <div className="abs_txt">
                         <div className="abs_txt_con">
