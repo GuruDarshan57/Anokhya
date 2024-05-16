@@ -8,21 +8,21 @@ const Sponsors = () => {
   return (
     <div className='spons'>
       <div className="sponsors_head">
-        <h2>Our Sponsors</h2>
+        <h2>Sponsors</h2>
         <p>Click to Discover Sponsor Offerings!</p>
-        </div>
+      </div>
       <div className='sponsMain'>
-       <a href={"/sponsor/CocoaCounty"}> <div className='card'>
+        <a href={"/sponsor/CocoaCounty"}> <div className='card'>
           <img className='card-image' src={img1} alt="Cocoa Sponsor" />
-          
-        </div></a> 
 
-      <a href='https://www.canamgroup.com'><div className='card'>
+        </div></a>
+
+        <a href='https://www.canamgroup.com'><div className='card'>
           <img className='card-image' src={img2} alt="Canam Sponsor" />
-        </div></a>  
+        </div></a>
       </div>
 
-      
+
     </div>
   );
 }

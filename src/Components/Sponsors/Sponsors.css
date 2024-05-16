@@ -5,12 +5,13 @@
 }
 
 .sponsors_head h2 {
-    width: 230px;
-    letter-spacing: 0.8px;
+    width: 250px;
+    letter-spacing: 2px;
     color: white;
     font-weight: 600;
-    font-size: 30px;
+    font-size: 40px;
     border-bottom: solid 2px yellow;
+    text-transform: uppercase;
 
 }
 
