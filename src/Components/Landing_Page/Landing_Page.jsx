@@ -17,6 +17,7 @@ function Home() {
 
             <div>
                 <Alert_mssg message="The tickets for Deploy it and Hack My Pc are currently unavailable at this moment." duration={8000} />
+                <Alert_mssg message="There are no tech talk/workshop happening today, they will be happening on 17th May ." duration={8000} />
             </div>
 
             <div div className="home_m" >
