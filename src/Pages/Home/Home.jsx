@@ -38,7 +38,7 @@ function Home() {
                     <About_us />
                     <Events />
                     <Timeline />
-                    <Sponsors/>
+                    {/* <Sponsors/> */}
                     <Contact_Us />
                 </>)}
         </>

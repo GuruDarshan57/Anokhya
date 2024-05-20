@@ -78,8 +78,8 @@ const About_us = () => {
                                     <span style={{ "--index": "2" }}>AWESOMENESS</span>
                                 </div>
                             </div></h2>
-                        <h2 id="time">HAS STARTED</h2>
-                        {/* <div id="label"><p>DAYS</p> <p>HOURS</p>   <p>MINUTES</p><p>SECONDS</p></div> */}
+                        <h2 id="time">00:00:00:00</h2>
+                        <div id="label"><p>DAYS</p> <p>HOURS</p>   <p>MINUTES</p><p>SECONDS</p></div>
                     </div>
                     <div className="abs_txt">
                         <div className="abs_txt_con">
