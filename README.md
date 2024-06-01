@@ -15,4 +15,4 @@ Clone the repo and in the root folder run
 `npm install`
 `npm run dev`
 
-to start app on [`localhost:5731`](localhost:5731)# anokhya2024
+to start app on [`localhost:5731`](localhost:5173)# anokhya2024
