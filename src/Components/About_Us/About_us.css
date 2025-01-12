@@ -183,8 +183,6 @@
     .abs_timer{
         margin: 50px 0px;
         border: solid 2px rgb(255, 255, 255);
-        /* border-right: solid 4px rgb(255, 255, 0);
-        border-bottom: solid 4px rgb(255, 255, 0); */
         box-shadow: 3px 5px 0  rgb(255, 255, 0);
         padding: 20px ;
         border-radius: 20px;
